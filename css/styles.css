@@ -34,6 +34,14 @@ body{
 
     width: 110px;
     height: 110px;
+    transition: 4s;
+}
+
+
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
+.header__link__logo:hover{
+    transform: rotateY(360deg);
 }
 
 
@@ -124,10 +132,9 @@ padding-bottom: 15px;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 
-
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
 
 .alemanes .card__promo{
     width: 300px;
@@ -137,7 +144,12 @@ padding-bottom: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
-    
+    transition: 2s ease-in-out;
+}
+
+
+.card__promo:hover{
+    transform: scale(1.1);
 }
 
 .card__promo__img{
@@ -172,6 +184,8 @@ padding-bottom: 15px;
 
 
 /* -----------------LANZAMIENTOS--------------- */
+
+
 
 .italiano {
     width:100% ;
@@ -246,6 +260,8 @@ padding-bottom: 15px;
     position: relative;
 }
 
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
 .contenedor__lanzamientos__texto{
     color: rgba(255, 255, 255, 0.714);
     font-size: 30px;
@@ -256,6 +272,12 @@ padding-bottom: 15px;
     position: absolute;
     bottom: 100px;
     left: 110px;
+    transition: 2s;
+}
+
+.contenedor__lanzamientos__texto:hover{
+    transform: scale(1.1);
+    border: rgba(255, 255, 255, 0.714) dashed 3px;
 }
 
 
@@ -428,35 +450,79 @@ padding-bottom: 15px;
 
 /* ---------------------PAGES---MODELOS------------------ */
 
-
+.ventas1{
+    width: 100%;
+    height: 40vh;
+    color: white;
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .ventas{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color:rgb(10, 9, 9);
-    color: white;
-    
-
-    
 }
 
 .ventas1{
-    width: 100% ;
-    height: 50px ;
+    width: 100%;
+    height: 40vh;
+    color: white;
+    background-color: rgb(10, 9, 9);
     display: flex;
+    padding-top: 50px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .ventas1__title{
     font-size: 30px;
     font-weight: 800;
-        
+    transition: 4s;
+    
+}
+/* ?-----------ANIMACIONES--------------- */
+
+
+.ventas1__title:hover{
+    animation: texto 4s;
+    
 }
 
+@keyframes texto{
+    0%{
+    color: goldenrod;
+    transform: scale(1.3);
+    
+    }
+
+    25%{
+    color: darkgoldenrod;
+    }
+
+    50%{
+        color: goldenrod;
+    }
+    
+    75%{
+        color: darkgoldenrod;
+    }
+
+    100%{
+        color: black;
+    }
+
+}
+
+
+
 .deportivos{
-    padding-top: 40px;
+    padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -493,6 +559,8 @@ padding-bottom: 15px;
     margin-bottom: 25px;
 }
 
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
 .deportivos__card__bottom{
     text-decoration: none;
     background-color: rgb(4, 4, 87);
@@ -501,6 +569,15 @@ padding-bottom: 15px;
     border-radius: 5px;
     border: 2px solid rgba(29, 29, 255, 0.677);
     box-shadow: 0 0 10px rgba(29, 29, 255, 0.677);
+    transition: transform 4s;
+}
+
+
+.deportivos__card__bottom:hover{
+    border: 3px solid;
+    color:rgb(242, 49, 10);
+    box-shadow: 0 0 12px rgba(255, 67, 29, 0.677);
+    font-weight: bold;
 }
 
 
@@ -615,11 +692,14 @@ padding-bottom: 15px;
 .contacto__title{
     font-size: 40px;
     font-weight: bold;
+    padding-left: 40px;
+    padding-top: 40px;
     
 }
 
 .contacto__paragrap{
     font-size: 30px;
+    padding-left: 40px;
 }
 
 .formulario{
@@ -700,7 +780,8 @@ padding-bottom: 15px;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    margin: 20;
+    padding-left: 20px;
+    padding-bottom: 10px;
     
 }
 .consulta textarea{
@@ -711,14 +792,23 @@ padding-bottom: 15px;
     margin-bottom: 20px;
 }
 
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
 .consulta .enviar{
     margin: 10px 20px 10px 20px;
     padding: 20px;
     margin-bottom: 80px;
     border-radius: 3px;
+    border:solid darkgrey;
     background-color: rgb(11, 11, 84);
     color: white;
+    transition: 2s;
     
+}
+
+.consulta .enviar:hover{
+    border: 3px solid cornflowerblue;
+    color: cornflowerblue;
 }
 /* --------------------SUCURSALES--DIRECIONES-------- */
 .sucursales{
@@ -745,17 +835,32 @@ padding-bottom: 15px;
 
 }
 
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
 .icons-text{
     width: 20vw;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 10px;
+    transition: 2s;
+    
+}
+
+.icons-text:hover{
+    transform: scale(1.1);
 }
 
 .contactos__ubi__map__img{
     width: 20px;
     height: 20px;
+    
+    
+    
 }
+
+
+
+
 
 .googlemaps{
     width: 100%;
@@ -777,16 +882,19 @@ padding-bottom: 15px;
 .casa__central__title{
     font-size: 20px;
     font-weight: bold;
+    padding-top: 200px;
 }
 
 .casa__central__paragrap{
     font-size: 15px;
     font-weight: bold;
+    padding-bottom: 40px;
 } 
 
 .casa__central__ifr{
     width: 500px;
     height: 500px;
+    padding-bottom: 40px;
 }
 
 
