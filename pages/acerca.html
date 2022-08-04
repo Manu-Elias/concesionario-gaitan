@@ -5,73 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca-G/M exclusive cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-    <body>
-        <header class="header">
-            <a class="header__link" href="../index.html"><img class="header__link__logo" src="../img/logo.png" alt="logo mg"></a>
-            <nav class="barra">
-                <ul class="barra__lista">
-                    <li class="barra__lista__links"><a href="../index.html">Incio</a></li>
-                    <li class="barra__lista__links"><a href="./acerca.html">Acerca</a></li>
-                    <li class="barra__lista__links"><a href="./modelos.html">Modelos</a></li>
-                    <li class="barra__lista__links"><a href="./novedades.html">Novedades</a></li>
-                    <li class="barra__lista__links"><a href="./contacto.html">Contacto</a></li>
-                    <li class="barra__lista__links"><a href="#pie">Pie de pagina</a></li>
-                    
-                </ul>
+    <body class="cuerpo">
+        <header class="cabecera">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid d-flex align-items-end">
+                    <a class="navbar-brand" href="..index.html"><img class="logo" src="../img/logo.png"
+                        alt="logo mg"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./acerca.html">Acerca</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./modelos.html">Modelos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./novedades.html">Novedades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Pie">Pie de pagina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
-            <section class="hero2">
-
-                <div>
-                    <h1 class="hero2__titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                </div>
-                <div>
-                    <h2 class="hero2__paragrap">Lorem ipsum dolor sit amet.</h2>
-                </div>
-                
-                
-            
-            </section>
-            
-            <section class="mercedez">
+               <!-- TODO-----------BOOTSTRAP--GRID    ------- -->
+            <section class="container-fluid  ">
+                <div class="row contenedor1 d-flex justify-content-center align-items-center" >
                     
-                    <img class="mercedez__img" src="../img/mercedez.png" alt="mercedez">
-
-                    <div class="mercedez__text">
-                        <h2 class="mercedez__text__title">Lorem ipsum dolor sit amet consectetur.</h2>
-                        <p class="mercedez__text__paragrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro ab veniam, quos quidem quis. Deserunt placeat ipsam quisquam laborum, sed ad deleniti minima libero voluptatem. Ratione ad quia obcaecati.
+                    <div class=" col-6  mercedez__textos">
+                        <h2 class="mercedez__textos__titulos">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="mercedez__textos__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro ab veniam, quos quidem quis. Deserunt placeat ipsam quisquam laborum, sed ad deleniti minima libero voluptatem. Ratione ad quia obcaecati.
                         Culpa corporis consequuntur nam magnam aliquid. Vel maxime iusto ipsam optio explicabo numquam quibusdam voluptates, asperiores voluptatibus dolorum eaque inventore aspernatur odio, recusandae perferendis neque sequi minima natus facilis itaque!
-                        Omnis cupiditate, consequatur mollitia aut quibusdam sit itaque accusantium nulla, non dolores soluta ratione unde placeat. Sequi ratione eos odit, illo veritatis cumque earum, ducimus, nihil officia quis debitis consequatur</p>
+                        sit itaque accusantium nulla, non dolores soluta ratione unde placeat. Sequi ratione eos odit, illo veritatis cumque earum, ducimus, nihil officia quis debitis consequatur</p>
                     </div>
-            </section>
-
-            <section class="persona">
+        
+                    <div class="col-6 d-flex justify-content-end pe-4">
+                        <img class="mercedez__foto" src="../img/mercedez.png" alt="" class="img-fluid">
+                    </div>
                     
-                    <img class="persona__img" src="../img/marcelo.png" alt="persona">
                     
-                    <div class="persona__text">
-                        <h2 class="persona__text__title">Lorem ipsum dolor sit</h2>
-                        <p class="persona__text__paragrap">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, facilis laudantium esse aliquid quasi fugit eum nisi pariatur repudiandae soluta labore sequi doloremque corporis non omnis ipsam accusantium vitae harum?
+                    
+                </div>
+        
+                <div class="row contenedor2 d-flex justify-content-center align-items-center">
+                    
+                    <div class="col-6 ">
+                        <img class= "persona__foto" src="../img/marcelo.png" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class=" col-6 persona__textos">
+                        <h2 class="persona__textos__titulos">Lorem ipsum dolor sit</h2>
+                        <p class="persona__textos__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, facilis laudantium esse aliquid quasi fugit eum nisi pariatur repudiandae soluta labore sequi doloremque corporis non omnis ipsam accusantium vitae harum?
                         Cumque repellendus maxime libero quas consequatur, iusto aperiam molestiae, vitae cum incidunt odio illo ea voluptatem totam quidem officia eligendi quia eaque fugit eius sed. Aut esse et cupiditate dolore!
                         Quod doloribus non aspernatur voluptatem officiis, fugiat commodi asperiores sunt explicabo delectus consequatur, illum obcaecati repudiandae nesciunt, tempora vel? Eos, perspiciatis rerum. Inventore porro nobis dolor quaerat</p>
                     </div>
                     
                     
-                </section>
-            
-            <section class="laferrari">
-
-                <img  class="laferrari__img" src="../img/laferrari.png" alt="laferrari">
-
-                <div class="laferrari__text">
-                    <h2 class="laferrari__text__title">Lorem ipsum dolor sit amet consectetur.</h2>
-                    <p  class="laferrari__text__paragrap">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit, eaque quia vel non, mollitia aspernatur quaerat doloremque ipsum deserunt excepturi ipsam quod iusto accusamus consectetur placeat, iste qui exercitationem?
-                    Incidunt quas assumenda nulla obcaecati quidem modi debitis, eos quae odit aspernatur alias voluptates? Doloribus aliquam et ad exercitationem eius necessitatibus doloremque consequatur perferendis. Soluta dolorem doloremque explicabo quia optio.
-                    Cum quia quas eius impedit enim ratione dolor ut sequi perferendis, fugit delectus nulla! Minus id minima dolore tempore asperiores, deserunt voluptas reprehenderit voluptatem pariatur repudiandae praesentium.
-                    Praesentium, Soluta iusto qui, delectus vitae architecto provident corrupti, obcaecati nam aspernatur fugit at officiis voluptatem dolor nostrum ipsum nobis eligendi dicta? Eligendi.</p>
+                </div>
+        
+                
+                    
+                <div class="row  contenedor3 d-flex justify-content-center align-items-center">
+                    
+                    <div class="col-6 d-flex justify-content-end">
+                        <img class="laferrari__foto" src="../img/roja.png" alt="" class="img-fluid">
+                    </div>
+        
+                    <div class=" col-6 laferrari__textos">
+                        <h2 class="laferrari__textos__titulos">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p  class="laferrari__textos__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit, eaque quia vel non, mollitia aspernatur quaerat doloremque ipsum deserunt excepturi 
+                        Incidunt quas assumenda nulla obcaecati quidem modi debitis, eos quae odit aspernatur alias voluptates? Doloribus aliquam et ad exercitationem eius necessitatibus doloremque consequatur perferendis.
+                        Cum quia quas eius impedit enim ratione dolor ut sequi perferendis, fugit delectus nulla! Minus id minima dolore tempore asperiores, deserunt voluptas reprehenderit voluptatem pariatur repudiandae praesentium.
+                        Praesentium, Soluta iusto qui, delectus vitae architecto provident corrupti, obcaecati nam aspernatur fugit at officiis voluptatem dolor nostrum ipsum nobis eligendi dicta? Eligendi.</p>
+                    </div>
                     
                 </div>
             </section>
@@ -81,10 +106,12 @@
             <div class="redes">
                 <h2 class="redes__titulo">Conoce nuestras redes sociales</h2>
                 
-                <a class="redes__link" href="https://www.facebook.com/"target="_blank"><img class="redes__link__icons" src="../img/facebook.png" alt=" ir a facebook">facebook</a>
-                <a class="redes__link" href="https://www.instagram.com/"target="_blank"><img class="redes__link__icons" src="../img/instagram.png" alt="ir a instagram" >instagram</a>
-                <a class="redes__link" href="https://twitter.com/"target="_blank"><img class="redes__link__icons" src="../img/twiter.png" alt="ir a twiter" >twiter</a>
-                <a class="redes__link" href="https://web.whatsapp.com/"target="_blank"><img class="redes__link__icons" src="../img/whatsapp.png" alt="ir a whatsapp" >whatsapp</a>
+                <a class="redes__enlaces" href="https://www.facebook.com/"target="_blank"><img class="redes__enlaces__iconos" src="../img/facebook.png" alt=" ir a facebook">facebook</a>
+                <a class="redes__enlaces" href="https://www.instagram.com/"target="_blank"><img class="redes__enlaces__iconos" src="../img/instagram.png" alt="ir a instagram" >instagram</a>
+                <a class="redes__enlaces" href="https://twitter.com/"target="_blank"><img class="redes__enlaces__iconos" src="../img/twiter.png" alt="ir a twiter" >twiter</a>
+                <a class="redes__enlaces" href="https://web.whatsapp.com/"target="_blank"><img class="redes__enlaces__iconos" src="../img/whatsapp.png" alt="ir a whatsapp" >whatsapp</a>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </body>   
