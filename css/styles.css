@@ -287,34 +287,46 @@
     padding-left: 30px;
 }
 
+.principal2__titulo{
+    color: rgba(1, 1, 1, 0.536);
+}
+
+.principal2__parrafo{
+    color: rgba(255, 0, 0, 0.452);
+}
+
 /* TODO--------pisando--estilos--de---bootstrap----------*/
 
 .contenedor1{
-    height: 110vh;
     background-color: black;
-    color: white;
-
-} 
+}
 
 .mercedez__foto{
-    width: 350px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 50px rgba(7, 92, 131, 0.452);
     
+    
 }
+
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
 
 .mercedez__textos{
     background-color: rgba(128, 127, 128, 0.128);
     width: 400px;
-    height: 500px;
+    height: 600px;
     text-align: center;
+    color:white;
     padding: 10px;
+    transition: 2s;
 
 }
 
-.mercedez__textos__titulo {
+.mercedez__textos:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgb(229, 8, 8);
+}
+
+.mercedez__textos__titulo{
     font-weight: bolder;
     font-size: x-large;
     font-style: italic;
@@ -329,7 +341,6 @@
 
 
 .contenedor2{
-    height: 120vh;
     background-image:url(../img/motor2.png) ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,13 +351,12 @@
 
 
 .persona__foto{
-    width: 400px;
-    height: 600px;
-    object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(65, 120, 221, 0.429);
     
 }
+
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
 
 .persona__textos{
     background-color: rgba(169, 169, 169, 0.452);
@@ -355,6 +365,12 @@
     width: 400px;
     height: 600px;
     box-shadow: 0 0 30px rgba(169, 169, 169, 0.452);
+    transition: 2s;
+}
+
+.persona__textos:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgb(229, 8, 8);
 }
 
 .persona__textos__titulo{
@@ -370,33 +386,39 @@
     font-weight: bold;
     text-align: justify;
 }
+/* TODO----------carrusel bootstrap----------- */
 
+.flecha{
+    color: red;
+    background-color: rgba(169, 169, 169, 0.452);
+}
 
 .contenedor3{
-    height: 100vh;
     background-color: black;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    align-items: center;
     color: white;
 }
 
 
 
 .laferrari__foto{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
     box-shadow: 0 0 50px rgba(228, 19, 19, 0.452);
     
 }
 
+/* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
+
 .laferrari__textos{
+    width: 400px;
+    height: 600px;
     background-color: rgba(128, 127, 128, 0.128);
-    width: 500px;
-    height: 400px;
     text-align: center;
     padding: 10px;
+    transition: 2s;
+}
+
+.laferrari__textos:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgb(229, 8, 8);
 }
 
 .laferrari__textos__titulo{
@@ -410,7 +432,6 @@
     text-align: justify;
     font-size: 16px;
 }
-
 
 /* ---------------------PAGES---MODELOS------------------ */
 
@@ -2564,9 +2585,9 @@ footer {
 }
 
 
-@media screen and (max-width:372px){
+@media screen and (max-width:374px){
     footer{
-        height:45vh;
+        height:55vh;
     }
     
     .inicio__logo{
@@ -2589,9 +2610,9 @@ footer {
 }
 
 
-@media screen and (max-width:344px){
+@media screen and (max-width:346px){
     footer{
-        height:43vh;
+        height:50vh;
     }
     
     .inicio__logo{
