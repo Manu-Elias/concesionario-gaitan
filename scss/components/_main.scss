@@ -1,0 +1,176 @@
+.carousel-item{
+    img{
+        height: 90vh;
+        object-fit: cover;
+    }
+}
+
+.principal-titulo {
+    font-size:65px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(4, 32, 170, 0.927);
+    text-shadow: 3px 5px 10px rgba(251, 247, 246, 0.526);
+    letter-spacing:10px ;
+}
+
+.principal-parrafo{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.789);
+    text-shadow: 5px 10px 20px rgba(186, 167, 25, 0.863);
+    
+}
+
+.secundario-titulo{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(16, 62, 160);
+}
+
+.secundario-parrafo{
+    font-style: italic;
+}
+
+// --------TARJETAS-------------
+
+.alemanes{
+    width:100% ;
+    height: 120vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &__titulo{
+        background-color: black;
+        font-size: 40px;
+        font-style: italic;
+        margin-left:50px;
+        color: rgb(255, 255, 255);
+    }
+    .tarjeta{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__promo{
+            width: 300px;
+            height: 500px;
+            background-color: rgb(77, 71, 71);
+            border: 1px solid rgba(9, 6, 192, 0.784);
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: 2s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+            &__imgenes{
+                width: 300px;
+                height: 400px;
+                object-fit: cover;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            &__titulos{
+                font-size: 35px;
+                color: white;
+                margin-bottom: 15px;
+            }
+            &__botones{
+                text-decoration: none;
+                padding: 5px;
+                color:white;
+                margin: 100px;
+                background-color: rgb(4, 4, 87);
+                border-radius: 5px;
+                border: 1px solid rgba(29, 29, 255, 0.677);
+                box-shadow: 0 0 20px rgba(29, 29, 255, 0.677);
+            }
+        }
+    }
+}
+
+// -----------LANZAMIENTOS----------
+
+.italiano{
+    width:100% ;
+    height: 150vh;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    .itali-flexible{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        &__titulo{
+            color: beige;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 50px;
+            margin-left:50px;
+        }
+        &__sub{
+            color: rgb(248, 26, 26);
+            font-style: italic;
+            font-weight: 700;
+            font-size: 35px;
+            margin-left:50px;
+        }
+    }
+}
+
+// !-----------APLICANDO--GRID-------------
+
+.contenedor{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 300px;
+    gap: 30px;
+    &__lanzamientos {
+        position: relative;
+        &__link__img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 5px;
+            -webkit-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        &__texto{
+            color: rgba(255, 255, 255, 0.714);
+            font-size: 30px;
+            font-weight: 600;
+            font-style: italic;
+            border: rgba(255, 255, 255, 0.714) dashed 2px;
+            padding: 5px 20px 5px 20px;
+            position: absolute;
+            bottom: 100px;
+            left: 110px;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.1);
+                border: rgba(255, 255, 255, 0.714) dashed 3px;
+            }
+        }
+    }
+    &__lanzamientos--1{
+        grid-row: span 2;
+    }
+    
+}
