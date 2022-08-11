@@ -933,102 +933,97 @@ footer {
 
 
 
-@media screen and (max-width:1038px) {
+@media screen and (max-width:1066px) {
 
 
-    .principal__titulo{
-        font-size:40px;
+    .principal-titulo{
+        font-size:50px;
     }
 
-    .principal__parrafo{
-        font-size:20px;
+    .principal-parrafo{
+        font-size:50px;
     }
 
 
 
-@media screen and (max-width:897px){
-    .principal{
-        height:90vh;
-    }
+@media screen and (max-width:879px){
+   
     
-    .principal__titulo{
-        font-size:35px;
+    .principal-titulo{
+        font-size:40px;
         padding-bottom: 10px;
     }
 
-    .principal__parrafo{
-        font-size:15px;
+    .principal-parrafo{
+        font-size:18px;
     } 
 }
 
-@media screen and (max-width:675px){
+@media screen and (max-width:759px){
 
-    .principal__titulo{
+    .principal-titulo{
+        font-size:35px;
+    }
+
+    .principal-parrafo{
+        font-size:15px;
+    }
+}
+
+
+@media screen and (max-width:694px){
+
+    .principal-titulo{
         font-size:30px;
     }
 
-    .principal__parrafo{
-        font-size:15px;
+    .principal-parrafo{
+        font-size:13px;
     }
 }
 
 
-@media screen and (max-width:607px){
-
-    .principal__titulo{
+@media screen and (max-width:631px){
+    
+    .principal-titulo{
         font-size:25px;
     }
 
-    .principal__parrafo{
-        font-size:15px;
+    .principal-parrafo{
+        font-size:12px;
     }
 }
 
+@media screen and (max-width:568px){
 
-@media screen and (max-width:539px){
-    
-    .principal__titulo{
+
+    .principal-titulo{
         font-size:20px;
-    }
-
-    .principal__parrafo{
-        font-size:15px;
-    }
-}
-
-@media screen and (max-width:468px){
-
-    .principal{
-        height:70vh;
-    }
-
-    .principal__titulo{
-        font-size:19px;
         
     }
 
     
 }
 
-@media screen and (max-width:471px){
-    .principal{
-        height:60vh;
-    }
+@media screen and (max-width:505px){
+  
     
-    .principal__titulo{
+    .principal-titulo{
         font-size:18px;
         
     }
 
+    .principal-parrafo{
+        font-size: 10px;
+    }
+
     
 }
 
-@media screen and (max-width:444px){
-    .principal{
-        height:60vh;
-    }
+@media screen and (max-width:480px){
     
-    .principal__titulo{
+    
+    .principal-titulo{
         font-size:17px;
         
     }
@@ -1036,121 +1031,30 @@ footer {
     
 }
 
-@media screen and (max-width:430px){
-    .principal__titulo{
-        font-size:16px;
-        
-    }
-
-    .principal__parrafo{
-        font-size:14px;
-    }
-
-    
-}
-
-@media screen and (max-width:417px){
-    .principal__titulo{
+@media screen and (max-width:470px){
+    .principal-titulo{
         font-size:15px;
         
     }
 
-    .principal__parrafo{
-        font-size:13px;
-    }
+   
 
     
 }
 
-@media screen and (max-width:403px){
-    .principal__titulo{
-        font-size:14px;
-        
-    }
-
-    .principal__parrafo{
-        font-size:12px;
-    }
-
-    
-}
-
-@media screen and (max-width:390px){
-    .principal__titulo{
+@media screen and (max-width:442px){
+    .principal-titulo{
         font-size:13px;
         
     }
 
-    .principal__parrafo{
-        font-size:11px;
-    }
-
-    
-}
-
-@media screen and (max-width:376px){
-    .principal{
-        padding-left:10px;
-    }
-    .principal__titulo{
-        font-size:12px;
-        
-    }
-
-    .principal__parrafo{
+    .principal-parrafo{
         font-size:10px;
     }
 
     
 }
 
-@media screen and (max-width:376px){
-    .principal{
-        padding-left:5px;
-    }
-    
-    
-}
-
-@media screen and (max-width:347px){
-    .principal{
-        padding-left:5px;
-    }
-    .principal__titulo{
-        font-size:11px;
-        
-    }
-}
-
-@media screen and (max-width:334px){
-    .principal{
-        padding-left:1px;
-    }
-}
-
-
-@media screen and (max-width:330px){
-    .principal{
-        padding-left:2px;
-    }
-
-    .principal__titulo{
-        font-size:10px;
-        
-    }
-}
-
-
-@media screen and (max-width:316px){
-    .principal__titulo{
-        font-size:9px;
-        
-    }
-
-    .principal__parrafo{
-        font-size:8px;
-    }
-}
 
 /* ?-------------MEDIA--ALEMANES----------------- */
 
@@ -1342,7 +1246,7 @@ footer {
 
 @media screen and (max-width:961px){
     .italiano{
-        height:135vh;
+        height:145vh;
     }
 }
 
@@ -1417,7 +1321,7 @@ footer {
 }
 
 
-@media screen and (max-width:px){
+@media screen and (max-width:790px){
     .italiano{
         height:120vh;
     }
