@@ -151,7 +151,7 @@
 
 @media screen and (max-width:499px){
     .alemanes{
-        height: 250vh;
+        height: 230vh;
         &__titulo {
             font-size:22px;
             margin-left:10px;
@@ -162,7 +162,7 @@
 
 @media screen and (max-width:464px){
     .alemanes{
-        height: 260vh;
+        height: 240vh;
         &__titulo {
             font-size:21px;
         }
@@ -171,7 +171,7 @@
 
 @media screen and (max-width:444px){
     .alemanes{
-        height: 270vh;
+        height: 245vh;
         &__titulo {
             font-size:20px;
             
@@ -288,7 +288,7 @@
 
 @media screen and (max-width:719px){
     .italiano{
-        height:115vh;
+        height:100vh;
     }
 }
 
@@ -296,6 +296,7 @@
     
     .italiano{
         .itali-flexible{
+            height: 10vh;
             &__titulo{
                 font-size: 25px;
             }
@@ -314,7 +315,7 @@
 
 @media screen and (max-width:495px){
     .italiano{
-        height:190vh;
+        height:160vh;
     }
 
 

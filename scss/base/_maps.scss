@@ -1,0 +1,22 @@
+// !HEADER---Y---FOOTER
+
+$paleta-colores:(
+principal:rgba(250, 165, 6, 0.783),
+secundario: darkred,);
+
+// !SECCION--ALEMANES--TARJETAS
+
+$tarjetas-alemanes:(
+fodo-alemanes:black,
+fondo-tarjetas:rgb(77, 71, 71),
+borde-tarjetas:1px solid rgba(9, 6, 192, 0.784),
+);
+
+$boton-alemanes:(
+boton-tarjetas:rgb(4, 4, 87),
+margen: 100px,
+boton-borde:1px solid rgba(29, 29, 255, 0.677),
+boton-radio: 5px,
+boton-sombra:0 0 20px rgba(29, 29, 255, 0.677),
+boton-textos: white,
+relleno: 5px);

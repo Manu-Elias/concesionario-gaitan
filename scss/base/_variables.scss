@@ -1,38 +1,29 @@
-$color-principal:rgba(250, 165, 6, 0.783);
-$color-secundario: darkred;
+
 $color-titulo-principal: rgba(4, 32, 170, 0.927);
 $color-titulo-secundario:rgb(16, 62, 160);
 $color-parrafo-principal:rgba(255, 0, 0, 0.789);
-$color-sombra-titulo: 3px 5px 10px rgba(251, 247, 246, 0.526);
-$color-sombra-parrafo: 5px 10px 20px rgba(186, 167, 25, 0.863);
-$color-textos: white;
-$color-fodo-alemanes:black;
-$color-fondo-tarjetas:rgb(77, 71, 71);
-$color-borde-tarjetas:1px solid rgba(9, 6, 192, 0.784);
-$boton-tarjetas:rgb(4, 4, 87);
-$boton-borde:1px solid rgba(29, 29, 255, 0.677);
-$boton-sombra:0 0 20px rgba(29, 29, 255, 0.677);
+$sombra-titulo-principal: 3px 5px 10px rgba(251, 247, 246, 0.526);
+$sombra-parrafo-principal: 5px 10px 20px rgba(186, 167, 25, 0.863);
 $color-textos-secundarios:rgba(255, 255, 255, 0.714);
 $color-borde-conocelo:rgba(255, 255, 255, 0.714) dashed 2px;
 $color-borde-conocelo-hover:rgba(255, 255, 255, 0.714) dashed 3px;
 $color-fondo-footer: darkred;
 
+
+
 // ?---LISTAS--COLORES--
 
 $colores:
-rgba(250, 165, 6, 0.783),
-darkred,
 rgba(4, 32, 170, 0.927),
 rgb(16, 62, 160),
 rgba(255, 0, 0, 0.789),
+rgb(248, 26, 26),
 rgba(251, 247, 246, 0.526),
 rgba(186, 167, 25, 0.863),
 white,
 black,
 rgb(77, 71, 71),
-rgba(9, 6, 192, 0.784),
-rgb(4, 4, 87),
-rgba(29, 29, 255, 0.677),
+beige,
 rgba(255, 255, 255, 0.714);
 
 
@@ -45,4 +36,5 @@ $font-size:
 40px,
 35px,
 30px,
+25px,
 20px;

@@ -25,6 +25,12 @@
   .logo:hover {
     transform: rotateY(360deg); }
 
+.italiano {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
 .carousel-item img {
   height: 90vh;
   object-fit: cover; }
@@ -59,7 +65,8 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: nowrap; }
   .alemanes__titulo {
     background-color: black;
     font-size: 40px;
@@ -68,8 +75,8 @@
     color: white; }
   .alemanes .tarjeta {
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap; }
     .alemanes .tarjeta__promo {
       width: 300px;
@@ -109,19 +116,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  align-items: center; }
+  background-attachment: fixed; }
   .italiano .itali-flexible {
     width: 100%;
     height: 20vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: flex-start; }
     .italiano .itali-flexible__titulo {
       color: beige;
       font-style: italic;
@@ -174,8 +176,8 @@ footer {
   height: 42vh;
   background-color: darkred;
   display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
+  justify-content: space-between;
   align-items: center; }
   footer .inicio__logo {
     width: 210px;
@@ -293,7 +295,7 @@ footer {
 
 @media screen and (max-width: 499px) {
   .alemanes {
-    height: 250vh; }
+    height: 230vh; }
     .alemanes__titulo {
       font-size: 22px;
       margin-left: 10px;
@@ -301,13 +303,13 @@ footer {
 
 @media screen and (max-width: 464px) {
   .alemanes {
-    height: 260vh; }
+    height: 240vh; }
     .alemanes__titulo {
       font-size: 21px; } }
 
 @media screen and (max-width: 444px) {
   .alemanes {
-    height: 270vh; }
+    height: 245vh; }
     .alemanes__titulo {
       font-size: 20px; } }
 
@@ -364,13 +366,15 @@ footer {
 
 @media screen and (max-width: 719px) {
   .italiano {
-    height: 115vh; } }
+    height: 100vh; } }
 
 @media screen and (max-width: 618px) {
-  .italiano .itali-flexible__titulo {
-    font-size: 25px; }
-  .italiano .itali-flexible__sub {
-    font-size: 18px; } }
+  .italiano .itali-flexible {
+    height: 10vh; }
+    .italiano .itali-flexible__titulo {
+      font-size: 25px; }
+    .italiano .itali-flexible__sub {
+      font-size: 18px; } }
 
 @media screen and (max-width: 525px) {
   .italiano {
@@ -378,7 +382,7 @@ footer {
 
 @media screen and (max-width: 495px) {
   .italiano {
-    height: 190vh; } }
+    height: 160vh; } }
 
 @media screen and (max-width: 469px) {
   .italiano .itali-flexible__titulo {

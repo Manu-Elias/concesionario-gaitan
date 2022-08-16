@@ -3,11 +3,8 @@
 footer{
     width: 100%;
     height: 42vh;
-    background-color: $color-secundario;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
+    background-color: map-get($paleta-colores, secundario);
+    @include flex-2 (flex, row-reverse, space-between, center );
     .inicio{
         &__logo{
             width: 210px;

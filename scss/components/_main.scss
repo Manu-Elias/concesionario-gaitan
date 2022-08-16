@@ -1,3 +1,8 @@
+@import"../base/variables";
+@import"../base/maps";
+@import"../base/extends";
+@import"../base/mixin";
+
 .carousel-item{
     img{
         height: 90vh;
@@ -6,27 +11,27 @@
 }
 
 .principal-titulo {
-    font-size:65px;
+    font-size:nth($font-size, 1);
     font-style: italic;
     text-align: center;
-    color: rgba(4, 32, 170, 0.927);
-    text-shadow: 3px 5px 10px rgba(251, 247, 246, 0.526);
+    color: $color-titulo-principal;
+    text-shadow: $sombra-titulo-principal;
     letter-spacing:10px ;
 }
 
 .principal-parrafo{
     font-weight: 700;
-    font-size: 25px;
+    font-size: nth($font-size,6 );
     text-align: center;
-    color: rgba(255, 0, 0, 0.789);
-    text-shadow: 5px 10px 20px rgba(186, 167, 25, 0.863);
+    color: $color-parrafo-principal;
+    text-shadow: $sombra-parrafo-principal;
     
 }
 
 .secundario-titulo{
     font-style: italic;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: nth($font-size, 5);
     color: rgb(16, 62, 160);
 }
 
@@ -39,27 +44,23 @@
 .alemanes{
     width:100% ;
     height: 120vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    background-color:map-get($tarjetas-alemanes,fodo-alemanes);
+    @include flex-alemanes (flex, column, space-evenly, nowrap);
     &__titulo{
         background-color: black;
-        font-size: 40px;
+        font-size: nth($font-size, 3);
         font-style: italic;
         margin-left:50px;
         color: rgb(255, 255, 255);
     }
     .tarjeta{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex-alemanes (flex, row, space-around, wrap);
         &__promo{
             width: 300px;
             height: 500px;
-            background-color: rgb(77, 71, 71);
-            border: 1px solid rgba(9, 6, 192, 0.784);
+            background-color:
+            map-get($tarjetas-alemanes , fondo-tarjetas);
+            border:map-get($tarjetas-alemanes, borde-tarjetas);
             border-radius: 5px;
             margin-bottom: 20px;
             text-align: center;
@@ -75,19 +76,19 @@
                 border-top-right-radius: 5px;
             }
             &__titulos{
-                font-size: 35px;
+                font-size: nth($font-size, 4);
                 color: white;
                 margin-bottom: 15px;
             }
             &__botones{
                 text-decoration: none;
-                padding: 5px;
-                color:white;
-                margin: 100px;
-                background-color: rgb(4, 4, 87);
-                border-radius: 5px;
-                border: 1px solid rgba(29, 29, 255, 0.677);
-                box-shadow: 0 0 20px rgba(29, 29, 255, 0.677);
+                padding: map-get($boton-alemanes ,relleno);
+                color: map-get($boton-alemanes , boton-textos);
+                margin: map-get($boton-alemanes , margen);
+                background-color: map-get($boton-alemanes , boton-tarjetas);
+                border-radius: map-get($boton-alemanes , boton-radio);
+                border: map-get($boton-alemanes ,boton-borde);
+                box-shadow: map-get($boton-alemanes ,boton-sombra);
             }
         }
     }
@@ -103,30 +104,24 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    align-items: center;
+    @extend%flex-italiano;
+    
     .itali-flexible{
         width: 100%;
         height: 20vh;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
+        @include flex-2 (flex, column,space-between,flex-start );
         &__titulo{
-            color: beige;
+            color: nth($colores, 10);
             font-style: italic;
             font-weight: 700;
-            font-size: 50px;
+            font-size: nth($font-size, 2);
             margin-left:50px;
         }
         &__sub{
-            color: rgb(248, 26, 26);
+            color: nth($colores, 4);
             font-style: italic;
             font-weight: 700;
-            font-size: 35px;
+            font-size: nth($font-size, 4);
             margin-left:50px;
         }
     }
@@ -154,10 +149,10 @@
         }
         &__texto{
             color: rgba(255, 255, 255, 0.714);
-            font-size: 30px;
+            font-size: nth($font-size, 5);
             font-weight: 600;
             font-style: italic;
-            border: rgba(255, 255, 255, 0.714) dashed 2px;
+            border: nth($colores, 11) dashed 2px;
             padding: 5px 20px 5px 20px;
             position: absolute;
             bottom: 100px;

@@ -1,11 +1,12 @@
 @import"../base/variables";
+@import"../base/maps";
 
 .cabecera{
-    background-color:$color-principal;
+    background-color:map-get($paleta-colores,principal );
 }
 
 .nav-link{
-    font-size:nth($font-size,6 );
+    font-size:nth($font-size,7 );
     font-style: italic;
     font-weight: bolder;
 }
