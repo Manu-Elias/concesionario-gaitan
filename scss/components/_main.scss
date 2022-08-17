@@ -2,10 +2,11 @@
 @import"../base/maps";
 @import"../base/extends";
 @import"../base/mixin";
+@import"../base/conditionals";
 
 .carousel-item{
     img{
-        height: 90vh;
+        height: 80vh;
         object-fit: cover;
     }
 }
@@ -105,6 +106,7 @@
     background-position: center;
     background-attachment: fixed;
     @extend%flex-italiano;
+    @include modo-img (b);
     
     .itali-flexible{
         width: 100%;

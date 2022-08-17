@@ -1,8 +1,10 @@
 @import"../base/variables";
 @import"../base/maps";
+@import"../base/conditionals";
 
 .cabecera{
     background-color:map-get($paleta-colores,principal );
+    @include modo(1);   
 }
 
 .nav-link{

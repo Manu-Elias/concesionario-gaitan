@@ -8,6 +8,7 @@
   font-family: 'Oxygen', sans-serif; }
 
 .cabecera {
+  background-color: rgba(250, 165, 6, 0.783);
   background-color: rgba(250, 165, 6, 0.783); }
 
 .nav-link {
@@ -32,7 +33,7 @@
   align-items: center; }
 
 .carousel-item img {
-  height: 90vh;
+  height: 80vh;
   object-fit: cover; }
 
 .principal-titulo {
@@ -116,7 +117,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-image: url(../img/fondo.png); }
   .italiano .itali-flexible {
     width: 100%;
     height: 20vh;
@@ -203,6 +205,8 @@ footer {
     font-size: 20px; } }
 
 @media screen and (max-width: 879px) {
+  .carousel-item img {
+    height: 60vh; }
   .principal-titulo {
     font-size: 40px;
     padding-bottom: 10px; }
@@ -247,9 +251,15 @@ footer {
 
 @media screen and (max-width: 442px) {
   .principal-titulo {
-    font-size: 13px; }
+    font-size: 10px; }
   .principal-parrafo {
-    font-size: 10px; } }
+    font-size: 8px; } }
+
+@media screen and (max-width: 381px) {
+  .principal-titulo {
+    font-size: 8px; }
+  .principal-parrafo {
+    font-size: 6px; } }
 
 @media screen and (max-width: 1109px) {
   .alemanes__titulo {
@@ -296,6 +306,8 @@ footer {
 @media screen and (max-width: 499px) {
   .alemanes {
     height: 230vh; }
+    .alemanes .tarjeta__promo {
+      margin-bottom: 40px; }
     .alemanes__titulo {
       font-size: 22px;
       margin-left: 10px;
@@ -314,14 +326,18 @@ footer {
       font-size: 20px; } }
 
 @media screen and (max-width: 424px) {
+  .alemanes .tarjeta__promo {
+    margin-bottom: 60px; }
   .alemanes__titulo {
     font-size: 19px; } }
 
 @media screen and (max-width: 402px) {
-  .alemanes__titulo {
-    font-size: 18px;
-    margin-left: 0;
-    text-align: center; } }
+  .alemanes {
+    justify-content: center; }
+    .alemanes__titulo {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: center; } }
 
 @media screen and (max-width: 378px) {
   .alemanes__titulo {
@@ -617,12 +633,19 @@ footer {
   .redes__enlaces {
     font-size: 11px; } }
 
+@media screen and (max-width: 592px) {
+  footer {
+    height: 50vh; }
+    footer .inicio__logo {
+      width: 145px;
+      height: 145px; } }
+
 @media screen and (max-width: 576px) {
   footer {
     height: 50vh; }
     footer .inicio__logo {
-      width: 165px;
-      height: 165px; }
+      width: 145px;
+      height: 145px; }
     footer .redes__titulo {
       font-size: 17px;
       margin-bottom: 21px; }
@@ -651,7 +674,7 @@ footer {
 
 @media screen and (max-width: 490px) {
   footer {
-    height: 65vh; }
+    height: 60vh; }
     footer .inicio__logo {
       width: 140px;
       height: 140px; }
@@ -676,18 +699,20 @@ footer {
     margin-left: 21px; } }
 
 @media screen and (max-width: 404px) {
-  footer .redes__titulo {
-    padding-top: 35px;
-    font-size: 12px;
-    margin-bottom: 15px; }
-  footer .redes__enlaces__iconos {
-    width: 15px;
-    height: 15px;
-    margin-left: 18px; } }
+  footer {
+    height: 55vh; }
+    footer .redes__titulo {
+      padding-top: 35px;
+      font-size: 12px;
+      margin-bottom: 15px; }
+    footer .redes__enlaces__iconos {
+      width: 15px;
+      height: 15px;
+      margin-left: 18px; } }
 
 @media screen and (max-width: 374px) {
   footer {
-    height: 75vh; }
+    height: 50vh; }
     footer .inicio__logo {
       width: 118px;
       height: 118px; }
@@ -702,7 +727,7 @@ footer {
 
 @media screen and (max-width: 346px) {
   footer {
-    height: 65vh; }
+    height: 45vh; }
     footer .inicio__logo {
       width: 113px;
       height: 113px; }

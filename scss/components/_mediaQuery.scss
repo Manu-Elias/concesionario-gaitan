@@ -10,6 +10,12 @@
 }
 
 @media screen and (max-width:879px){
+
+    .carousel-item{
+        img{
+            height: 60vh;
+        }
+    }
     .principal-titulo{
         font-size:40px;
         padding-bottom: 10px;
@@ -76,14 +82,24 @@
 
 @media screen and (max-width:442px){
     .principal-titulo{
-        font-size:13px;
+        font-size:10px;
         
     }
     .principal-parrafo{
-        font-size:10px;
+        font-size:8px;
     }
 }
 
+
+@media screen and (max-width:381px){
+    .principal-titulo{
+        font-size:8px;
+        
+    }
+    .principal-parrafo{
+        font-size:6px;
+    }
+}
 
 
 // ?---MEDIA---ALEMANES------------
@@ -152,6 +168,9 @@
 @media screen and (max-width:499px){
     .alemanes{
         height: 230vh;
+        .tarjeta__promo{
+            margin-bottom: 40px;
+        }
         &__titulo {
             font-size:22px;
             margin-left:10px;
@@ -181,7 +200,9 @@
 
 @media screen and (max-width:424px){
     .alemanes{
-        
+        .tarjeta__promo{
+            margin-bottom: 60px;
+        }
         &__titulo {
             font-size:19px;
         }
@@ -190,11 +211,12 @@
 
 @media screen and (max-width:402px){
     .alemanes{
-        
+        justify-content: center;
         &__titulo {
             font-size:18px;
             margin-left:0;
             text-align:center;
+            
         }
     }
 }
@@ -757,12 +779,22 @@
     }
 }
 
+@media screen and (max-width:592px){
+    footer{
+        height:50vh;
+        .inicio__logo{
+            width: 145px;
+            height: 145px;
+        }
+    }
+}
+
 @media screen and (max-width:576px){
     footer{
         height:50vh;
         .inicio__logo{
-            width: 165px;
-            height: 165px;
+            width: 145px;
+            height: 145px;
         }
         .redes{
             &__titulo{
@@ -824,7 +856,7 @@
 @media screen and (max-width:490px){
 
     footer{
-        height:65vh;
+        height:60vh;
         .inicio__logo{
             width: 140px;
             height: 140px;
@@ -872,7 +904,7 @@
 
 @media screen and (max-width:404px){
     footer{
-        
+        height:55vh;
         .redes{
             &__titulo{
                 padding-top:35px;
@@ -891,7 +923,7 @@
 
 @media screen and (max-width:374px){
     footer{
-        height:75vh;
+        height:50vh;
         .inicio__logo{
             width: 118px;
             height: 118px;
@@ -914,7 +946,7 @@
 
 @media screen and (max-width:346px){
     footer{
-        height:65vh;
+        height:45vh;
         .inicio__logo{
             width: 113px;
             height: 113px;
