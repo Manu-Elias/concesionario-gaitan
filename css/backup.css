@@ -688,12 +688,14 @@
 }
 
 .formulario{
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
+    color:white;
 }
 
 
 .formulario__titulo{
     font-weight: bolder;
+    
 }
 
 .mapa{
@@ -704,10 +706,10 @@
 
 .consulta{
     width: 500px;
-    height: 700px;
-    border: 1px solid rgba(186, 182, 182, 0.714);
-    border-radius: 3px;
-    background-color: rgba(103, 97, 97, 0.754);
+    height: 800px;
+    border: 1px solid rgba(5, 174, 246, 0.714);
+    border-radius: 8px;
+    background-color: rgba(28, 28, 28, 0.565);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -718,56 +720,75 @@
 .consulta__titulo{
     font-size: 20px;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
 /* ---------------------SELECIONAR PROVINCIA------------ */
 
+
+.consulta__completa input:hover{
+    
+    border: 3px solid  rgba(5, 45, 246, 0.714);
+}
 .consulta__completa input{
     width: 400px;
     height: 40px;
     margin-top: 20px;
     font-size: 15px;
     font-weight: bold;
+    border: 2px solid rgba(5, 174, 246, 0.714);
+    border-radius: 2px;
+    transition: 1s;
+    outline: none;
+    cursor: pointer;
 }
 
 .consulta__completa select{
     width: 400px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 15px;
     color: rgb(71, 69, 69);
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid rgba(5, 174, 246, 0.714);
 }
+
 /* ----------------------INPUT---RADIO */
 .selecciona{
-    height: 60px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-content: stretch;
     align-items: center;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
     
 
 
 .selecciona .radio{
+    width: 300px;
     font-weight: bold;
     font-size: 15px;
-    padding-right: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    cursor: pointer;
+   
+    
     
 }
 
 .consulta .escribe{
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 5px;
+    cursor: pointer;
 }
 .consulta textarea{
     width: 400px;
@@ -775,6 +796,10 @@
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
+    border-radius: 2px;
+    border: 2px solid rgba(5, 174, 246, 0.714);
+    cursor: pointer;
+    
 }
 
 /* ?-------TRASFORMACIONES  Y  TRANSICIONES---------- */
@@ -784,16 +809,19 @@
     padding: 20px;
     margin-bottom: 80px;
     border-radius: 3px;
-    border:solid darkgrey;
+    border:solid rgb(8, 23, 191);
     background-color: rgb(11, 11, 84);
     color: white;
-    transition: 2s;
+    transition: 1s;
     
 }
 
 .consulta .enviar:hover{
-    border: 3px solid cornflowerblue;
-    color: cornflowerblue;
+    border: 2px solid red;
+    color: rgb(199, 17, 17);
+    box-shadow: 0 0 12px rgba(255, 67, 29, 0.677);
+    font-weight: bolder;
+    padding: 25px;
 }
 /* --------------------SUCURSALES--DIRECIONES-------- */
 .sucursales{
@@ -801,15 +829,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color:white;
+    
+    
 
 }
 
 .sucursales__ubi__titulo{
     font-size: 20px;
+   
 }
 
 .sucursales__ubi__parrafo{
     font-size: 15px;
+    
 }
 
 .contactos{
@@ -817,6 +850,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color:white
 
 }
 
@@ -828,6 +862,7 @@
     justify-content: space-evenly;
     padding-bottom: 10px;
     transition: 2s;
+    cursor: pointer;
     
 }
 
@@ -850,13 +885,13 @@
 .googlemapas{
     width: 100%;
     height: 90vh;
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     
 }
 
 .casa{
     height: 300px;
-    
+    color:white;
     display: flex;
     align-items: center;
     justify-content: flex-end;

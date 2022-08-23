@@ -27,20 +27,22 @@
     Nuestro objetivo es que el cliente quede totalmente satisfecho, que sepa que somos la solución a sus distintas necesidades y vuelva para próximas gestiones de compra y nos recomiende.">
                             <!-------------Bootstrap------------ -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-                            <!-- -----------CSS---------------- -->
-    <link rel="stylesheet" href="../css/backup.css">
+            <!-- -----------CSS---------------- -->
+    <!-- <link rel="stylesheet" href="../css/backup.css"> -->
+            <!----------------SCSS-------------- -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
     <body class="cuerpo">
         <header class="cabecera">
             <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid d-flex align-items-end">
+                <div class="container-fluid d-flex align-items-center">
                     <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png"
                         alt="logo mg"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-lg-end pe-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -59,10 +61,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#pie">Pie de pagina</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
+                            </li>  
                         </ul>
                     </div>
                 </div>
@@ -74,10 +73,10 @@
                 <section class="principal2">
 
                     <div>
-                        <h1 class="principal2__titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <h1 class="principal2__titulo">Un viaje de mil millas comienza con el primer paso.</h1>
                     </div>
                     <div>
-                        <h2 class="principal2__parrafo">Lorem ipsum dolor sit amet.</h2>
+                        <h2 class="principal2__parrafo">Sube abordo para conocernos</h2>
                     </div>
                     
                     
@@ -85,23 +84,23 @@
                 </section>
 
                 <section class="container-fluid">
-                    <div class="row  contenedor1 pt-5 pb-5 d-flex justify-content-around   ">
+                    <div class="row  contenedor1 pt-5 pb-5 d-flex justify-content-around ">
         
                         <div class="col-sm-12 col-md-6 col-lg-8 my-5 mercedez__textos">
-                            <h2 class="mercedez__textos__titulos">Lorem ipsum dolor sit amet consectetur.</h2>
-                            <p class="mercedez__textos__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Veritatis porro ab veniam, quos quidem quis. Deserunt placeat ipsam quisquam laborum, sed ad
-                                deleniti minima libero voluptatem. Ratione ad quia obcaecati.
-                                Culpa corporis consequuntur nam magnam aliquid. Vel maxime iusto ipsam optio explicabo numquam
-                                quibusdam voluptates, asperiores voluptatibus dolorum eaque inventore aspernatur odio,
-                                recusandae perferendis neque sequi minima natus facilis itaque!
-                                sit itaque accusantium nulla, non dolores soluta ratione unde placeat. Sequi ratione eos odit,
-                                illo veritatis cumque earum, ducimus, nihil officia quis debitis consequatur</p>
+                            <h2 class="mercedez__textos__titulos">M/G Exclusive Cars</h2>
+                            <p class="mercedez__textos__parrafo"> M/G Exclusive Cars nace de un sueño en el año 2017, luego de haber transitado durante varios años,  por casi todas las marcas nacionales e importadas, siempre en el sector comercial, tanto de planes de ahorro como en venta convencional. 
+
+ 
+
+                                Tantos años en el rubro automotor me hicieron conocer, viviendo día a día, todas las necesidades que padecen los usuarios de vehículos por un lado y por el otro todas las falencias de las concesionarias por ver solo su propio beneficio descuidando a quien mas se merece ser cuidado. 
+                                Esto era algo que siempre me angustiaba porque sabia que se podía y era posible trabajar de otra manera.
+                                Así  fue que me inspire en un dicho de Albert Einstein, “ La creatividad nace de la angustia “
+                                Un día me propuse ser mi propio jefe, para poder de esta manera hacer realidad todos mis ideales en cuanto a toda la gestión comercial y administrativa en el Rubro Automotor.</p>
                         </div>
         
         
-                        <div class=" col-sm-12 col-md-6 col-lg-4 my-5 ">
-                            <img class="mercedez__foto" src="../img/mercedez.png" alt="" class="img-fluid">
+                        <div class=" col-sm-6 col-md-6 col-lg-4 my-5 ">
+                            <img class=" img-fluid mercedez__foto " src="../img/mercedez.png" alt=" Auto Mercedez" >
                         </div>
         
         
@@ -111,8 +110,8 @@
                 <section class="container-fluid">
                     <div class="row contenedor2 pt-5 pb-5 d-flex   justify-content-evenly  ">
         
-                        <div class="col-sm-12 col-md-6 col-lg-6  my-5">
-                            <img class="persona__foto" src="../img/marcelo.png" alt="" class="img-fluid">
+                        <div class="col-sm-6 col-md-6 col-lg-6  my-5">
+                            <img class=" img-fluid persona__foto" src="../img/marcelo.png" alt=" Marcelo Gaetani Fundador de M/G Exclusive Cars" >
                         </div>
         
                         <div class="col-sm-12 col-md-4 col-lg-4 my-5 persona__textos">
@@ -123,18 +122,15 @@
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                             aria-controls="panelsStayOpen-collapseOne">
-                                            Un orgullo Nacional
+                                            Marcelo Gaetani 
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="panelsStayOpen-headingOne">
-                                        <div class="accordion-body flecha">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                            until the collapse plugin adds the appropriate classes that we use to style each
-                                            element. These classes control the overall appearance, as well as the showing and
-                                            hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                            our default variables. It's also worth noting that just about any HTML can go within
-                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="accordion-body text-center  flecha ">
+                                                    El Nombre del lujo y la deportividad en Argentina. 
+                                                    Cuando uno piensa en un auto Deportivo, un auto de Lujo, en un suv de Alta Gama nos viene a la mente el nombre de Marcelo Gaetani. 
+                                                    Dueño y Fundador de M/G Exclusive Cars en Argentina
                                         </div>
                                     </div>
                                 </div>
@@ -148,11 +144,11 @@
                                     </h2>
                                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="panelsStayOpen-headingTwo">
-                                        <div class="accordion-body flecha">
-                                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                            until the collapse plugin adds the appropriate classes that we use to style each
-                                            element. These classes control the overall appearance, as well as the showing and
-                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="accordion-body text-center flecha">
+                                            
+                                            Creemos fuertemente en el valor del factor humano y no pueden ser transportados en cualquier cosa. 
+                                            Es impensable transportar lo mas valioso para uno, como es la familia, por ejemplo, en un auto sin freno o con gomas lisas.
+                                            Seria una locura . Creo que nadie lo haria. Bueno en M/G Exclusive Cars nos dedicamos a cuidar estos valores por eso queremos asegurate que todas nuestras unidades estan testeadas por los mejores especialistas 
                                         </div>
                                     </div>
                                 </div>
@@ -166,11 +162,12 @@
                                     </h2>
                                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="panelsStayOpen-headingThree">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                            until the collapse plugin adds 
-                                            our default variables. It's also worth noting that just about any HTML can go within
-                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="accordion-body text-center">
+                                            Nuestro servicio post-venta: Consiste en seguir en constante comunicación para poder asistirlo en cuanto a los futuros servicios mecánicos y de mantenimientos.
+                                            Para ello se retirara su vehículo del domicilio dejando otro en comodato hasta el reintegro del mismo.
+                                            Nuestro objetivo es que el cliente quede totalmente satisfecho, que sepa que somos la solución a sus distintas necesidades
+                                            y vuelva para próximas gestiones de compra nos recomiende.
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -184,21 +181,17 @@
                 <section class="container-fluid">
                     <div class="row  contenedor3 pt-5 pb-5 d-flex justify-content-around   ">
         
-                        <div class="col-sm-12 col-md-6 col-lg-8 my-5  laferrari__textos">
-                            <h2 class="laferrari__textos__titulos">Lorem ipsum dolor sit amet consectetur.</h2>
-                            <p class="laferrari__textos__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Veritatis porro ab veniam, quos quidem quis. Deserunt placeat ipsam quisquam laborum, sed ad
-                                deleniti minima libero voluptatem. Ratione ad quia obcaecati.
-                                Culpa corporis consequuntur nam magnam aliquid. Vel maxime iusto ipsam optio explicabo numquam
-                                quibusdam voluptates, asperiores voluptatibus dolorum eaque inventore aspernatur odio,
-                                recusandae perferendis neque sequi minima natus facilis itaque!
-                                sit itaque accusantium nulla, non dolores soluta ratione unde placeat. Sequi ratione eos odit,
-                                illo veritatis cumque earum, ducimus, nihil officia quis debitis consequatur</p>
+                        <div class="col-sm-4 col-md-6 col-lg-8 my-5  laferrari__textos">
+                            <h2 class="laferrari__textos__titulos pb-3"> Nuestra misión</h2>
+                            <p class="laferrari__textos__parrafo">  Sabemos que no hay nada mas gratificante que la compra de un veiculo de caracteristicas unicas y especiales por eso entendemos cada modelo está concebido para brindar una experiencia de conducción mágica, estimulante y centrada en la persona
+                                                                    es más que una simple máquina, es la expresión de una incansable búsqueda tecnológica y de la evolución de la ingeniería, el símbolo de un inquebrantable compromiso de excelencia por esa misma razon queremos que su paso por nuestros salones se momorable desde la gestion de compra hasta la entrega de la unidad.
+                                                                    contamos con un excelente equipo capacitado para brindarle el mejor servicio y asesoramiento de Argentina, de esta manera garantizamos a nuestros clientes que el vehiculo que ellos desean esta en excelentes condiciones. M/G Exclusive cars te garantiza el mejor trato tanto a vos como a tu unidad.
+                            </p>
                         </div>
         
         
-                        <div class=" col-sm-12 col-md-6 col-lg-4 my-5 ">
-                            <img class="laferrari__foto" src="../img/cliente.png" alt="" class="img-fluid">
+                        <div class=" col-sm-8 col-md-6 col-lg-4 my-5 ">
+                            <img class=" img-fluid laferrari__foto" src="../img/cliente.png" alt=" auto ferrari la ferrari" >
                         </div>
         
         

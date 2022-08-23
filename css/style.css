@@ -9,7 +9,7 @@
 
 .cabecera {
   background-color: rgba(250, 165, 6, 0.783);
-  background-color: rgba(250, 165, 6, 0.783); }
+  background-color: rgba(225, 225, 228, 0.83); }
 
 .nav-link {
   font-size: 20px;
@@ -39,6 +39,7 @@
 .principal-titulo {
   font-size: 65px;
   font-style: italic;
+  font-weight: bolder;
   text-align: center;
   color: rgba(4, 32, 170, 0.927);
   text-shadow: 3px 5px 10px rgba(251, 247, 246, 0.526);
@@ -47,6 +48,7 @@
 .principal-parrafo {
   font-weight: 700;
   font-size: 25px;
+  font-weight: bolder;
   text-align: center;
   color: rgba(255, 0, 0, 0.789);
   text-shadow: 5px 10px 20px rgba(186, 167, 25, 0.863); }
@@ -69,11 +71,12 @@
   justify-content: space-evenly;
   flex-wrap: nowrap; }
   .alemanes__titulo {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.83);
     font-size: 40px;
     font-style: italic;
-    margin-left: 50px;
-    color: white; }
+    font-weight: bolder;
+    text-align: center;
+    color: #fafafa; }
   .alemanes .tarjeta {
     display: flex;
     flex-direction: row;
@@ -82,7 +85,7 @@
     .alemanes .tarjeta__promo {
       width: 300px;
       height: 500px;
-      background-color: #4d4747;
+      background-color: #565353;
       border: 1px solid rgba(9, 6, 192, 0.784);
       border-radius: 5px;
       margin-bottom: 20px;
@@ -161,7 +164,7 @@
       font-size: 30px;
       font-weight: 600;
       font-style: italic;
-      border: rgba(255, 255, 255, 0.714) dashed 2px;
+      border: rgba(255, 255, 255, 0.714) dashed 3px;
       padding: 5px 20px 5px 20px;
       position: absolute;
       bottom: 100px;
@@ -172,6 +175,318 @@
         border: rgba(255, 255, 255, 0.714) dashed 3px; }
   .contenedor__lanzamientos--1 {
     grid-row: span 2; }
+
+.principal2 {
+  background-image: url(..//img/gt3r.png);
+  width: 100%;
+  height: 90vh;
+  font-style: italic;
+  font-weight: bolder;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-left: 30px; }
+  .principal2__titulo {
+    color: #01010b;
+    text-shadow: 3px 5px 10px rgba(52, 52, 52, 0.823); }
+  .principal2__parrafo {
+    color: #141414;
+    text-shadow: 3px 5px 10px rgba(3, 3, 3, 0.823); }
+
+.container-fluid .contenedor1 {
+  background-color: black; }
+  .container-fluid .contenedor1 .mercedez__textos {
+    background-color: rgba(128, 127, 128, 0.128);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    transition: 2s; }
+    .container-fluid .contenedor1 .mercedez__textos:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 50px #e50808; }
+    .container-fluid .contenedor1 .mercedez__textos__titulos {
+      font-weight: bolder;
+      font-size: 30px;
+      font-style: italic;
+      margin-bottom: 30px; }
+    .container-fluid .contenedor1 .mercedez__textos__parrafo {
+      text-align: justify;
+      font-weight: bold; }
+  .container-fluid .contenedor1 .mercedez__foto {
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(7, 92, 131, 0.452); }
+
+.container-fluid .contenedor2 {
+  background-image: url(../img/motor2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .container-fluid .contenedor2 .persona__foto {
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 120, 221, 0.429); }
+  .container-fluid .contenedor2 .persona__textos {
+    background-color: rgba(169, 169, 169, 0.452);
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 0 30px rgba(169, 169, 169, 0.452);
+    transition: 2s; }
+    .container-fluid .contenedor2 .persona__textos:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 50px #e50808; }
+  .container-fluid .contenedor2 .flecha {
+    color: red;
+    background-color: rgba(169, 169, 169, 0.452); }
+
+.container-fluid .contenedor3 {
+  background-color: black;
+  color: white; }
+  .container-fluid .contenedor3 .laferrari__textos {
+    width: 400px;
+    height: 600px;
+    background-color: rgba(128, 127, 128, 0.128);
+    text-align: center;
+    padding: 10px;
+    transition: 2s; }
+    .container-fluid .contenedor3 .laferrari__textos:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 50px #e50808; }
+    .container-fluid .contenedor3 .laferrari__textos__titulos {
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 15px; }
+    .container-fluid .contenedor3 .laferrari__textos__parrafo {
+      text-align: justify;
+      font-size: 16px; }
+    .container-fluid .contenedor3 .laferrari__textos .laferrari__foto {
+      box-shadow: 0 0 50px rgba(228, 19, 19, 0.452); }
+
+.autos .ventas1 {
+  width: 100%;
+  height: 40vh;
+  color: white;
+  background-color: #0a0909;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .autos .ventas1__titulo {
+    font-size: 40px;
+    font-weight: 800;
+    transition: 4s; }
+    .autos .ventas1__titulo:hover {
+      animation: texto 4s; }
+
+@keyframes texto {
+  0% {
+    color: goldenrod;
+    transform: scale(1.3); }
+  25% {
+    color: darkgoldenrod; }
+  50% {
+    color: goldenrod; }
+  75% {
+    color: darkgoldenrod; }
+  100% {
+    color: black; } }
+
+.ventas {
+  background-color: #0a0909; }
+  .ventas .deportivos {
+    height: 110vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; }
+    .ventas .deportivos__venta {
+      background-color: rgba(255, 254, 254, 0.066);
+      color: white;
+      width: 400px;
+      height: 450px;
+      text-align: center;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      box-shadow: 0 0 30px rgba(0, 38, 255, 0.626); }
+      .ventas .deportivos__venta .foto-autos .galeria {
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 10px; }
+      .ventas .deportivos__venta__titulo {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px; }
+      .ventas .deportivos__venta__parrafo {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .ventas .deportivos__venta__boton {
+        text-decoration: none;
+        background-color: #040457;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid rgba(29, 29, 255, 0.677);
+        box-shadow: 0 0 10px rgba(29, 29, 255, 0.677);
+        transition: transform 4s; }
+        .ventas .deportivos__venta__boton:hover {
+          border: 3px solid;
+          color: #f2310a;
+          box-shadow: 0 0 12px rgba(255, 67, 29, 0.677);
+          font-weight: bold; }
+
+.introduccion {
+  background-image: url(../img/azulll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  color: white;
+  font-style: italic;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start; }
+  .introduccion__titulo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px; }
+  .introduccion__subtitulo {
+    color: #be0e0e;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-left: 40px; }
+  .introduccion__parrafo {
+    color: rgba(255, 255, 255, 0.718);
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px; }
+
+.novedades {
+  width: 100%;
+  height: 220vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.091)), url(../img/logo.png);
+  background-size: cover;
+  background-attachment: local;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; }
+  .novedades .videos {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    column-gap: 150px;
+    row-gap: 100px;
+    font-style: italic; }
+    .novedades .videos__remodelacion {
+      color: azure;
+      background-color: rgba(202, 202, 202, 0.321);
+      border-top: 1px silver solid;
+      -webkit-box-shadow: 24px 25px 19px -3px rgba(0, 0, 0, 0.74);
+      -moz-box-shadow: 24px 25px 19px -3px rgba(0, 0, 0, 0.74);
+      box-shadow: 24px 25px 19px -3px rgba(0, 0, 0, 0.74); }
+    .novedades .videos__titulo {
+      padding-left: 10px; }
+    .novedades .videos__parrafo {
+      padding-left: 10px; }
+    .novedades .videos__youtube {
+      width: 100%;
+      height: 80%;
+      object-fit: cover; }
+
+.contacto {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/contacto.png);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-style: italic; }
+  .contacto__titulo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 40px; }
+  .contacto__parrafo {
+    font-size: 30px;
+    padding-left: 40px; }
+
+.formulario {
+  background-color: #4e4e4e; }
+  .formulario .formu2 {
+    background-color: #4e4e4e; }
+    .formulario .formu2 div .consulta {
+      border: 1px solid rgba(5, 174, 246, 0.714);
+      border-radius: 8px;
+      background-color: rgba(28, 28, 28, 0.565); }
+      .formulario .formu2 div .consulta__titulo {
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 20px; }
+      .formulario .formu2 div .consulta .boton-enviar {
+        width: 33vw;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        border: solid #0817bf;
+        background-color: #0b0b54;
+        color: white;
+        transition: 1s; }
+        .formulario .formu2 div .consulta .boton-enviar:hover {
+          border: 2px solid red;
+          color: #c71111;
+          box-shadow: 0 0 12px rgba(255, 67, 29, 0.677);
+          font-weight: bolder; }
+    .formulario .formu2 div .imagenes-completa {
+      transition: 2s;
+      cursor: pointer; }
+      .formulario .formu2 div .imagenes-completa:hover {
+        transform: scale(1.1); }
+      .formulario .formu2 div .imagenes-completa__img {
+        width: 20px;
+        height: 20px; }
+
+.mapagrande {
+  width: 100%;
+  height: 100vh;
+  background-color: #4e4e4e; }
+  .mapagrande .casa__central {
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 150px; }
+    .mapagrande .casa__central__titulo {
+      font-size: 20px;
+      font-weight: bold;
+      padding-right: 300px; }
+    .mapagrande .casa__central__parrafo {
+      font-size: 15px;
+      font-weight: bold;
+      padding-bottom: 40px; }
+    .mapagrande .casa__central__ubicacion {
+      width: 500px;
+      height: 500px;
+      padding-bottom: 40px; }
 
 footer {
   width: 100%;
@@ -211,7 +526,11 @@ footer {
     font-size: 40px;
     padding-bottom: 10px; }
   .principal-parrafo {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .secundario-titulo {
+    font-size: 20px; }
+  .secundario-parrafo {
+    font-size: 14px; } }
 
 @media screen and (max-width: 759px) {
   .principal-titulo {
@@ -229,11 +548,21 @@ footer {
   .principal-titulo {
     font-size: 25px; }
   .principal-parrafo {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .secundario-titulo {
+    font-size: 14px; }
+  .secundario-parrafo {
+    font-size: 8px; } }
 
 @media screen and (max-width: 568px) {
   .principal-titulo {
     font-size: 20px; } }
+
+@media screen and (max-width: 515px) {
+  .secundario-titulo {
+    font-size: 12px; }
+  .secundario-parrafo {
+    font-size: 9px; } }
 
 @media screen and (max-width: 505px) {
   .principal-titulo {
@@ -247,19 +576,45 @@ footer {
 
 @media screen and (max-width: 470px) {
   .principal-titulo {
-    font-size: 15px; } }
+    font-size: 16px; }
+  .secundario-titulo {
+    font-size: 10px; }
+  .secundario-parrafo {
+    font-size: 8px; } }
 
 @media screen and (max-width: 442px) {
   .principal-titulo {
-    font-size: 10px; }
+    font-size: 15px;
+    letter-spacing: 6px; }
   .principal-parrafo {
-    font-size: 8px; } }
+    font-size: 10px; }
+  .secundario-titulo {
+    font-size: 8px; }
+  .secundario-parrafo {
+    font-size: 7px; } }
 
 @media screen and (max-width: 381px) {
   .principal-titulo {
-    font-size: 8px; }
+    font-size: 12px; }
   .principal-parrafo {
-    font-size: 6px; } }
+    font-size: 8px; } }
+
+@media screen and (max-width: 340px) {
+  .principal-titulo {
+    font-size: 15px;
+    letter-spacing: 4px; }
+  .principal-parrafo {
+    font-size: 7px; }
+  .secundario-titulo {
+    font-size: 10px; }
+  .secundario-parrafo {
+    font-size: 8px; } }
+
+@media screen and (max-width: 297px) {
+  .principal-titulo {
+    font-size: 12px; }
+  .principal-parrafo {
+    font-size: 5px; } }
 
 @media screen and (max-width: 1109px) {
   .alemanes__titulo {
@@ -305,7 +660,7 @@ footer {
 
 @media screen and (max-width: 499px) {
   .alemanes {
-    height: 230vh; }
+    height: 260vh; }
     .alemanes .tarjeta__promo {
       margin-bottom: 40px; }
     .alemanes__titulo {
@@ -314,22 +669,20 @@ footer {
       padding-bottom: 30px; } }
 
 @media screen and (max-width: 464px) {
-  .alemanes {
-    height: 240vh; }
-    .alemanes__titulo {
-      font-size: 21px; } }
+  .alemanes__titulo {
+    font-size: 21px; } }
 
 @media screen and (max-width: 444px) {
-  .alemanes {
-    height: 245vh; }
-    .alemanes__titulo {
-      font-size: 20px; } }
-
-@media screen and (max-width: 424px) {
-  .alemanes .tarjeta__promo {
-    margin-bottom: 60px; }
   .alemanes__titulo {
-    font-size: 19px; } }
+    font-size: 20px; } }
+
+@media screen and (max-width: 404px) {
+  .alemanes {
+    height: 240vh; }
+    .alemanes .tarjeta__promo {
+      margin-bottom: 60px; }
+    .alemanes__titulo {
+      font-size: 19px; } }
 
 @media screen and (max-width: 402px) {
   .alemanes {
@@ -585,9 +938,339 @@ footer {
     left: 65px;
     bottom: 35px; } }
 
+@media screen and (max-width: 1062px) {
+  .autos .ventas1__titulo {
+    font-size: 35px;
+    font-weight: bolder; } }
+
+@media screen and (max-width: 957px) {
+  .autos .ventas1__titulo {
+    font-size: 30px; } }
+
+@media screen and (max-width: 869px) {
+  .ventas {
+    height: 130vh; } }
+
+@media screen and (max-width: 837px) {
+  .autos .ventas1__titulo {
+    font-size: 32px; } }
+
+@media screen and (max-width: 733px) {
+  .autos .ventas1__titulo {
+    font-size: 26px; } }
+
+@media screen and (max-width: 580px) {
+  .autos .ventas1__titulo {
+    font-size: 20px; } }
+
+@media screen and (max-width: 433px) {
+  .autos .ventas1__titulo {
+    font-size: 15px;
+    font-weight: bolder; } }
+
+@media screen and (max-width: 967px) {
+  .ventas .deportivos__venta {
+    width: 300px;
+    height: 350px; }
+  .ventas .deportivos .foto-autos .galeria {
+    height: 200px;
+    margin-bottom: 5px; } }
+
+@media screen and (max-width: 600px) {
+  .ventas {
+    height: 150vh; }
+    .ventas .deportivos {
+      height: 150vh;
+      align-content: space-around; }
+      .ventas .deportivos__venta {
+        width: 250px;
+        height: 330px; }
+      .ventas .deportivos .foto-autos .galeria {
+        height: 200px; } }
+
+@media screen and (max-width: 813px) {
+  .principal2__titulo {
+    font-size: 30px; }
+  .principal2__parrafo {
+    font-size: 20px; } }
+
+@media screen and (max-width: 813px) {
+  .principal2 {
+    height: 70vh; } }
+
+@media screen and (max-width: 724px) {
+  .principal2__titulo {
+    font-size: 25px; }
+  .principal2__parrafo {
+    font-size: 20px; } }
+
+@media screen and (max-width: 612px) {
+  .principal2__titulo {
+    font-size: 20px; }
+  .principal2__parrafo {
+    font-size: 15px; } }
+
+@media screen and (max-width: 489px) {
+  .principal2__titulo {
+    font-size: 15px; }
+  .principal2__parrafo {
+    font-size: 10px; } }
+
+@media screen and (max-width: 376px) {
+  .principal2__titulo {
+    font-size: 12px;
+    font-size: bolder; }
+  .principal2__parrafo {
+    font-size: 9px; } }
+
+@media screen and (max-width: 378px) {
+  .contenedor1 .mercedez__textos__titulos {
+    font-size: 15px; }
+  .contenedor1 .mercedez__textos__parrafo {
+    text-align: center;
+    font-size: 10px; } }
+
+@media screen and (max-width: 1085px) {
+  .introduccion__titulo {
+    font-size: 30px;
+    padding-bottom: 2px; }
+  .introduccion__subtitulo {
+    font-size: 20px;
+    margin-top: 15px; }
+  .introduccion__parrafo {
+    font-size: 12px; } }
+
+@media screen and (max-width: 950px) {
+  .introduccion__titulo {
+    font-size: 24px; }
+  .introduccion__subtitulo {
+    font-size: 14px; }
+  .introduccion__parrafo {
+    font-size: 10px; } }
+
+@media screen and (max-width: 762px) {
+  .introduccion {
+    height: 50vh; }
+    .introduccion__titulo {
+      font-size: 18px; }
+    .introduccion__subtitulo {
+      font-size: 12px; }
+    .introduccion__parrafo {
+      font-size: 8px; } }
+
+@media screen and (max-width: 566px) {
+  .introduccion__titulo {
+    font-size: 16px;
+    padding-bottom: 2px;
+    font-weight: bolder; }
+  .introduccion__subtitulo {
+    font-size: 10px;
+    margin-top: 25px; }
+  .introduccion__parrafo {
+    font-size: 8px; } }
+
+@media screen and (max-width: 497px) {
+  .introduccion__titulo {
+    font-size: 14px; }
+  .introduccion__subtitulo {
+    font-size: 8px;
+    margin-top: 10px; } }
+
+@media screen and (max-width: 434px) {
+  .introduccion__titulo {
+    font-size: 12px; }
+  .introduccion__subtitulo {
+    font-size: 8px;
+    margin-top: 10px; }
+  .introduccion__parrafo {
+    font-size: 7px; } }
+
+@media screen and (max-width: 386px) {
+  .introduccion__titulo {
+    font-size: 10px; }
+  .introduccion__subtitulo {
+    font-size: 8px;
+    margin-top: 10px; }
+  .introduccion__parrafo {
+    font-size: 6px; } }
+
+@media screen and (max-width: 1085px) {
+  .novedades {
+    height: 240vh; }
+    .novedades .videos {
+      column-gap: 120px;
+      row-gap: 200px;
+      grid-auto-rows: 238px; }
+      .novedades .videos__titulo {
+        font-size: 20px; }
+      .novedades .videos__parrafo {
+        font-size: 15px; }
+      .novedades .videos__youtube {
+        height: 80%; } }
+
+@media screen and (max-width: 1035px) {
+  .novedades {
+    height: 240vh; }
+    .novedades .videos {
+      column-gap: 130px;
+      row-gap: 210px;
+      grid-auto-rows: 195px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 70%; } }
+
+@media screen and (max-width: 932px) {
+  .novedades {
+    height: 680vh; }
+    .novedades .videos {
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 120px;
+      row-gap: 200px;
+      grid-auto-rows: 400px; }
+      .novedades .videos__titulo {
+        font-size: 20px; }
+      .novedades .videos__parrafo {
+        font-size: 15px; }
+      .novedades .videos__youtube {
+        height: 85%; } }
+
+@media screen and (max-width: 721px) {
+  .novedades {
+    height: 550vh; }
+    .novedades .videos {
+      row-gap: 120px;
+      grid-auto-rows: 350px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 85%; } }
+
+@media screen and (max-width: 655px) {
+  .novedades {
+    height: 420vh; }
+    .novedades .videos {
+      row-gap: 100px;
+      grid-auto-rows: 250px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 85%; } }
+
+@media screen and (max-width: 465px) {
+  .novedades {
+    height: 350vh; }
+    .novedades .videos {
+      row-gap: 80px;
+      grid-auto-rows: 220px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 85%; } }
+
+@media screen and (max-width: 408px) {
+  .novedades {
+    height: 320vh; }
+    .novedades .videos {
+      row-gap: 60px;
+      grid-auto-rows: 200px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 85%; } }
+
+@media screen and (max-width: 378px) {
+  .novedades {
+    height: 330vh; }
+    .novedades .videos {
+      row-gap: 95px;
+      grid-auto-rows: 180px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 80%; } }
+
+@media screen and (max-width: 325px) {
+  .novedades {
+    height: 320vh; }
+    .novedades .videos {
+      row-gap: 120px;
+      grid-auto-rows: 160px; }
+      .novedades .videos__titulo {
+        font-size: 15px; }
+      .novedades .videos__parrafo {
+        font-size: 10px; }
+      .novedades .videos__youtube {
+        height: 75%; } }
+
+@media screen and (max-width: 992px) {
+  .formulario .formu2 div .consulta .boton-enviar {
+    width: 80vw; } }
+
+@media screen and (max-width: 841px) {
+  .contacto__titulo {
+    font-size: 30px; }
+  .contacto__parrafo {
+    font-size: 25px; }
+  .mapagrande .casa__central {
+    align-items: center;
+    padding-right: 0; } }
+
+@media screen and (max-width: 577px) {
+  .formulario .formu2 {
+    display: grid;
+    gap: 80px; }
+    .formulario .formu2 div .textos-completa__titulo {
+      font-size: 20px;
+      font-weight: bolder;
+      padding-bottom: 15px; }
+    .formulario .formu2 div .textos-completa__parrafo {
+      font-size: 18px;
+      font-weight: 100; } }
+
+.mapagrande .casa__central__titulo {
+  padding-right: 0px; }
+
+.mapagrande .casa__central__ubicacion {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 20px; }
+
+@media screen and (max-width: 468px) {
+  .contacto__titulo {
+    font-size: 25px; }
+  .contacto__parrafo {
+    font-size: 18px; }
+  .mapagrande .casa__central__ubicacion {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 391px) {
+  .consulta__titulo {
+    font-size: 10px; } }
+
+@media screen and (max-width: 325px) {
+  .mapagrande .casa__central__ubicacion {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 5px; } }
+
 @media screen and (max-width: 872px) {
   footer {
-    height: 48vh; }
+    height: 50vh; }
   .inicio__logo {
     width: 190px;
     height: 190px; }
@@ -654,12 +1337,12 @@ footer {
 
 @media screen and (max-width: 498px) {
   footer {
-    height: 55vh;
+    height: 60vh;
     justify-content: flex-end;
     flex-direction: column-reverse; }
     footer .inicio__logo {
-      width: 160px;
-      height: 160px;
+      width: 150px;
+      height: 150px;
       margin-top: 30px;
       position: absolute;
       right: 5px; }

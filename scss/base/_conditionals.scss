@@ -6,13 +6,13 @@
         background-color:rgba(107, 105, 105, 0.466);
     }
     @else {
-        background-color: rgba(250, 165, 6, 0.783);
+        background-color: rgba(225, 225, 228, 0.83);
     }
     @if $colors > 2{
         background-color: dimgrey;
     }
     @if $colors >= 4 {
-        background-color: rgb(255, 247, 23);
+        background-color: rgba(246, 246, 241, 0.719);
     }
     
 }

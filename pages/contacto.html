@@ -28,20 +28,21 @@
     <!-- --------------aplicando bootstrap css------- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- -----------CSS---------------- -->
-    <link rel="stylesheet" href="../css/backup.css">
-
+    <!-- <link rel="stylesheet" href="../css/backup.css"> -->
+    <!--------------SCSS--------------- -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
     <body class="cuerpo">
         <header class="cabecera">
             <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid d-flex align-items-end">
+                <div class="container-fluid d-flex align-items-center">
                     <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png"
                         alt="logo mg"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-lg-end pe-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -61,9 +62,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#pie">Pie de pagina</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -77,216 +75,203 @@
 
             </section>
 
-            <section class="formulario">
-                
-                <div class="mapa">
-                    
-                    <div class="direcciones__ubi">
-                        
-                        <form class="consulta">
-                            <h2 class="consulta__titulo">Envíenos su consulta.</h2>
-
-                            <div class="consulta__completa">
-                                <label for="nombre"></label>
-                                <input type="completa"name="nombre" placeholder="Nombre">
+            <section class="container-fluid formulario">
+                <div class="row formu2  ">
+                    <div class="col-12 col-lg-5 pt-5 gx-5 ">
+                        <form class="consulta g-3 d-flex flex-column align-items-center">
+                            <h2 class="consulta__titulo fs-5  text-white">Envíenos su consulta.</h2>
+                            <div class="col-10">
+                                <label for="inputAddress" class="form-label"></label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
                             </div>
-                            <div class="consulta__completa">
-                                <label for="apellido"></label>
-                                <input type="completa"neme="apellido" placeholder="Apellido">
+                            <div class="col-10">
+                                <label for="inputAddress2" class="form-label"></label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apellido">
                             </div>
-                            <div class="consulta__completa">
-                                <label for="email"></label>
-                                <input type="email"name="email" placeholder="Email">
+                            <div class="col-10">
+                                <label for="inputtel" class="form-label"></label>
+                                <input type="text" class="form-control" id="inputtel" placeholder="telefono">
                             </div>
-                            <div class="consulta__completa">
-                                <label for="tel"></label>
-                                <input type="tel"name="tel" placeholder="Telefono">
+                            <div class="col-10">
+                                <label for="inputEmail4" class="form-label"></label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                             </div>
-                            <div class="consulta__completa">
-                                <label for="ciudad"></label>
-                                <input type="completa"name="ciudad" placeholder="Ciudad">
-                            </div>
-                            <div class="consulta__completa">
-                                <select name="" id=""> Pais
-                                    <option value=""selected>Seleccione Pais</option>
-                                    <option value="">Argentina</option>
-                                    <option value="">España</option>
-                                    <option value="">Brasil</option>
-                                    <option value="">Chile</option>
-                                    <option value="">Peru</option>
+                            
+                            <div class="col-10">
+                                <label for="inputState" class="form-label"></label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Selecione Pais</option>
+                                    <option>Argentina</option>
+                                    <option>Brasil</option>
+                                    <option>Chile</option>
+                                    <option>Colombia</option>
+                                    <option>Italia</option>
+                                    <option>Puerto Rico</option>
                                 </select>
                             </div>
-                            <div class="consulta__completa">
-                                <select name="" id="">Concesionarios
-                                    <option value="" selected>Seleccione Concesionario</option>
-                                    <option value="">Santa fe Argentina</option>
-                                    <option value="">Buenos Aires Argentina</option>
-                                    <option value="">Milano Italia</option>
-                                    <option value="">Madrid España</option>
-                                </select>    
+                            <div class="col-10">
+                                <label for="inputState" class="form-label"></label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Selecione Provincia</option>
+                                    <option>Santa fe</option>
+                                    <option>Rosario</option>
+                                    <option>Cordoba</option>
+                                    <option>Bs Aires</option>
+                                    <option>Mendoza</option>
+                                </select>
                             </div>
-                                
-                            <div class="selecciona">
-                                
-                                <div>
-                                    <p>Ingrese una opsion</p>
-                                </div>
-                                
-                                <div class="radio">
-                                    
-                                    <label for="asesoramiento">Asesoramiento</label>
-                                    <input type="radio" name="asesoramiento">
-                                    
-                                
-                                    <label for="reclamo" >Reclamo</label>
-                                    <input type="radio" name="reclamo">
-                                </div>
+    
+                            <div class="col-6 mt-3 text-center text-white">
+                                <p>Seleccione una opcion</p>
                             </div>
                             
-                            <div>
-                                <p class="escribe">Ingrese su consulta y/o reclamo</p>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
+                            <div class="col-6  elige d-flex justify-content-evenly">
+                                <div class="form-check mb-3 pe-2 ">
+                                    <input class="form-check-input " type="checkbox" id="gridCheck">
+                                    <label class="form-check-label  ps-1 text-white " for="gridCheck">
+                                        Acesoramiento
+                                    </label>
+                                </div>
+    
+                                <div class="form-check mb-3 ">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label ps-1 text-white" for="gridCheck">
+                                        Reclamo
+                                    </label>
+                                </div>
                             </div>
-        
-                            <input class="enviar" type="submit" value="Enviar">
+                            <div class="col-10">
+                                    <textarea class="form-control comenta" placeholder="Ingrese su Comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2"></label>
+                                
+                            </div>
+    
                             
+                            <div class=" d-grid gap-2">
+                                <button type="submit" class="btn btn-primary img-fluid boton-enviar">Enviar</button>
+                            </div>
                         </form>
                     </div>
-                    
-                    <div class="direciones__ubi">
-                        <div class="sucursales">
-                            <div>
-                                <h2 class="sucursales__ubi__titulo">Lorem ipsum dolor sit gjriro.</h2>
-                                <h3 class="sucursales__ubi__parrafo">Lorem ipsum dolor sit  </h3>
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-evenly align-items-center text-sm-center pt-sm-5 text-white">
+                        <div class="d-lg-flex justify-content-lg-evenly ">
+                            <div class="  textos-completa  me-lg-5 ">
+                                <h2 class="textos-completa__titulo fs-3">Casa Central M/G</h2>
+                                <p class="textos-completa__parrafo pb-sm-3 pt-lg-5 text-sm-center ">Santa fe (Sato tome) </p>
                                 
                             </div>
-                            
-                            <div>
-                                <h2 class="sucursales__ubi__titulo">Lorem ipsum dolor sit gjriro.</h2>
-                                <h3 class="sucursales__ubi__parrafo">Lorem ipsum dolor sit  </h3>
-                                
-                            </div>
-
-                            <div>
-                                <h2 class="sucursales__ubi__titulo">Lorem ipsum dolor sit gjriro.</h2>
-                                <h3 class="sucursales__ubi__parrafo">Lorem ipsum dolor sit  </h3>
-                                
-                            </div>
-                        </div>
-
-    
-                    </div>
-
-                    <div class="direcciones__ubi">
-                        <div class="contactos">
-                            <div>
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://www.google.com/mapas/place/31%C2%B038'46.3%22S+60%C2%B041'45.0%22W/@-31.6461754,-60.7000482,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xdef2c747226854e8!7e2!8m2!3d-31.6461802!4d-60.6958211?hl=es">
-                                        <img class="contactos__ubi__mapa__img" src="../img/pin.png" alt="">
+                            <div class="d-flex flex-column  ">
+                                <div class="d-flex  imagenes-completa  ">
+                                    <a class="contactos__ubi__mapa me-3 " href="https://goo.gl/maps/6oWcj97YDYLRfP4h6">
+                                        <img class="imagenes-completa__img " src="../img/pin.png" alt="imagen maps">
                                     </a>
                                 
-                                    <p>Lorem, ipsum dolor.</p>
+                                    <p>Av. 7 de Marzo 1227</p>
                                 </div>
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://goo.gl/mapas/ByuSkns8e1LD7aHTA">
-                                        <img class="contactos__ubi__mapa__img" src="../img/telefono.png"alt="">
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/telefono.png" alt="imagen telefono">
                                     </a>
-                                    <p>Lorem, ipsum dolor.</p>
-
-                                </div>
                                 
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="">
-                                        <img class="contactos__ubi__mapa__img" src="../img/correo.png"alt="">
+                                    <p>(0342) 4758800</p>
+                                </div>
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/correo.png" alt="imagen email">
                                     </a>
-                                    <p>Lorem, ipsum dolor.</p>
-
-                                </div>
                                 
-                            </div>
-    
-                            <div>
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://www.google.com/mapas/place/31%C2%B038'46.3%22S+60%C2%B041'45.0%22W/@-31.6461754,-60.7000482,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xdef2c747226854e8!7e2!8m2!3d-31.6461802!4d-60.6958211?hl=es">
-                                    <img class="contactos__ubi__mapa__img" src="../img/pin.png" alt="">
-                                </a>
-                                <p>Lorem, ipsum dolor.</p>
-
-                                </div>
-                                
-                                
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://goo.gl/mapas/ByuSkns8e1LD7aHTA">
-                                        <img class="contactos__ubi__mapa__img" src="../img/telefono.png"alt="">
-                                    </a>
-                                    <p>Lorem, ipsum dolor.</p>
-
-                                </div>
-                                
-                                
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="">
-                                        <img class="contactos__ubi__mapa__img" src="../img/correo.png"alt="">
-                                    </a>
-                                    <p>Lorem, ipsum dolor.</p>
-
-                                </div>
-                                
-                            </div>
-    
-                            <div>
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://www.google.com/mapas/place/31%C2%B038'46.3%22S+60%C2%B041'45.0%22W/@-31.6461754,-60.7000482,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xdef2c747226854e8!7e2!8m2!3d-31.6461802!4d-60.6958211?hl=es">
-                                    <img class="contactos__ubi__mapa__img" src="../img/pin.png" alt="">
-                                </a>
-                                <p>Lorem, ipsum dolor.</p>
-
-                                </div>
-                                
-                                
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="https://goo.gl/mapas/ByuSkns8e1LD7aHTA">
-                                        <img class="contactos__ubi__mapa__img" src="../img/telefono.png"alt="">
-                                    </a>
-                                    <p>Lorem, ipsum dolor.</p>
-                                    
-                                </div>
-                                
-                                <div class="imagenes-completa">
-                                    <a class="contactos__ubi__mapa" href="">
-                                        <img class="contactos__ubi__mapa__img" src="../img/correo.png"alt="">
-                                    </a>
-                                    <p>Lorem, ipsum dolor.</p>
-
+                                    <p>casa@central-m/g".com.ar</p>
                                 </div>
                                 
                             </div>
                         </div>
 
-                        
+                        <div class="d-lg-flex ">
+                            <div class="  textos-completa me-lg-5 ">
+                                <h2 class="textos-completa__titulo fs-3">Sucursal M/G</h2>
+                                <p class="textos-completa__parrafo pb-sm-3 pt-lg-5 text-sm-center">Santa fe (Santa fe)  </p>
+                                
+                            </div>
+                            <div class="d-flex flex-column  text-white ">
+                                <div class="d-flex imagenes-completa ">
+                                    <a class=" me-3 " href="https://goo.gl/maps/LJZzszCDxvRmtXwG9">
+                                        <img class="imagenes-completa__img" src="../img/pin.png" alt="imagen maps">
+                                    </a>
+                                
+                                    <p>Av. López y Planes 4225</p>
+                                </div>
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/telefono.png" alt="imagen telefono">
+                                    </a>
+                                
+                                    <p>(0342) 4745000</p>
+                                </div>
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/correo.png" alt="imagen email">
+                                    </a>
+                                
+                                    <p>sucursal@stafe-m/g.com.ar</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="d-lg-flex justify-content-lg-evenly ">
+                            <div class="  textos-completa me-lg-5 ">
+                                <h2 class="textos-completa__titulo fs-3">Sursal 2 M/G </h2>
+                                <p class="textos-completa__parrafo pb-sm-3 pt-lg-5 text-sm-center">Santa fe (Rosario) </p>
+                                
+                            </div>
+                            <div class="d-flex flex-column p-1   ">
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="https://g.page/SternMotors?share">
+                                        <img class="imagenes-completa__img" src="../img/pin.png" alt="imagen maps">
+                                    </a>
+                                
+                                    <p>Junín 250, Rosario</p>
+                                </div>
+                                <div class="d-flex imagenes-completar">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/telefono.png" alt="imagen telefono">
+                                    </a>
+                                
+                                    <p>(0343) 4759090</p>
+                                </div>
+                                <div class="d-flex imagenes-completa ">
+                                    <a class="contactos__ubi__mapa me-3 " href="#">
+                                        <img class="imagenes-completa__img" src="../img/correo.png" alt="imagen email">
+                                    </a>
+                                
+                                    <p>suc@rosario-m/g.com.ar</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
                     </div>
 
-                    
+
                 </div>
-                
             </section>
-           
+            
 
             
 
-            <section class="googlemapas">
-                <div class="casa">
+            <section class="mapagrande">
                     <div class="casa__central">
-                        <h2 class="casa__central__titulo">M/G exclusive cars</h2>
-                        <h3 class="casa__central__parrafo">(Casa central)</h3>
-                        <iframe class="casa__central__ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1697.879625841129!2d-60.75490734199566!3d-31.66780571248393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e4565d582b1df1b!2zMzHCsDQwJzA0LjEiUyA2MMKwNDUnMTMuNyJX!5e0!3m2!1ses!2sar!4v1659574311697!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div >
+                            <h2 class="casa__central__titulo">M/G exclusive cars</h2>
+                            <h3 class="casa__central__parrafo">(Casa central)</h3>
+                        </div>
+                        <div>
+                            <iframe class=" img-fluid casa__central__ubicacion " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1697.879625841129!2d-60.75490734199566!3d-31.66780571248393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e4565d582b1df1b!2zMzHCsDQwJzA0LjEiUyA2MMKwNDUnMTMuNyJX!5e0!3m2!1ses!2sar!4v1659574311697!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
-
-                </div>
-
             </section>
 
         </main>
+        
         <footer id="pie">
             <a class="inicio" href="../index.html"><img class="inicio__logo" src="../img/logo.png" alt="logo mg"></a>
             <div class="redes">

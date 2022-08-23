@@ -1,0 +1,125 @@
+.principal2{
+    background-image: url(..//img/gt3r.png);
+    width:100%;
+    height:90vh ;
+    font-style: italic;
+    font-weight: bolder;
+    color:black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 30px;
+    &__titulo{
+        color: rgb(1, 1, 11);
+        text-shadow: 3px 5px 10px rgba(52, 52, 52, 0.823);
+    }
+
+    &__parrafo{
+        color: rgb(20, 20, 20);
+        text-shadow: 3px 5px 10px rgba(3, 3, 3, 0.823);
+    }
+}
+
+.container-fluid{
+    .contenedor1 {
+
+        background-color: black;
+        .mercedez__textos{
+            background-color: rgba(128, 127, 128, 0.128);
+            width: 400px;
+            height: 600px;
+            text-align: center;
+            color:white;
+            padding: 10px;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 0 50px rgb(229, 8, 8);
+            }
+            &__titulos{
+                font-weight: bolder;
+                font-size: 30px;
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+            &__parrafo{
+                text-align: justify;
+                font-weight: bold;
+            }
+        }
+        .mercedez__foto{
+            border-radius: 5px;
+            box-shadow: 0 0 50px rgba(7, 92, 131, 0.452);
+        }
+    }
+}
+
+.container-fluid{
+    .contenedor2{
+        background-image:url(../img/motor2.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        .persona__foto{
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(65, 120, 221, 0.429);
+        }
+        .persona__textos{
+            background-color: rgba(169, 169, 169, 0.452);
+            padding: 10px;
+            text-align: center;
+            width: 400px;
+            height: 600px;
+            box-shadow: 0 0 30px rgba(169, 169, 169, 0.452);
+            transition: 2s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 0 50px rgb(229, 8, 8);
+            }
+        }
+        .flecha{
+            color: red;
+            background-color: rgba(169, 169, 169, 0.452);
+        }
+    }
+}
+
+.container-fluid{
+    .contenedor3{
+        background-color: black;
+        color: white;
+        .laferrari__textos{
+            width: 400px;
+            height: 600px;
+            background-color: rgba(128, 127, 128, 0.128);
+            text-align: center;
+            padding: 10px;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 0 50px rgb(229, 8, 8);
+            }
+            &__titulos{
+                font-size: 30px;
+                font-weight: bold;
+                font-style: italic;
+                margin-bottom: 15px;
+            }
+    
+            &__parrafo{
+                text-align: justify;
+                font-size: 16px;
+            }
+            .laferrari__foto{
+                box-shadow: 0 0 50px rgba(228, 19, 19, 0.452);
+            }
+        }
+    }
+}
+
