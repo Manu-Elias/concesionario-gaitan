@@ -370,12 +370,12 @@
     color: #be0e0e;
     font-size: 30px;
     margin-bottom: 10px;
-    padding-left: 40px; }
+    padding-left: 20px; }
   .introduccion__parrafo {
     color: rgba(255, 255, 255, 0.718);
     font-weight: bold;
     font-size: 20px;
-    padding-left: 40px; }
+    padding-left: 20px; }
 
 .novedades {
   width: 100%;
@@ -392,7 +392,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 300px;
     column-gap: 150px;
-    row-gap: 100px;
+    row-gap: 200px;
     font-style: italic; }
     .novedades .videos__remodelacion {
       color: azure;
@@ -523,7 +523,7 @@ footer {
   .carousel-item img {
     height: 60vh; }
   .principal-titulo {
-    font-size: 40px;
+    font-size: 38px;
     padding-bottom: 10px; }
   .principal-parrafo {
     font-size: 18px; }
@@ -534,29 +534,35 @@ footer {
 
 @media screen and (max-width: 759px) {
   .principal-titulo {
-    font-size: 35px; }
+    font-size: 33px;
+    font-weight: bolder;
+    color: rgba(240, 234, 234, 0.821);
+    text-shadow: 2px 2px #00004def; }
   .principal-parrafo {
-    font-size: 15px; } }
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.901); } }
 
 @media screen and (max-width: 694px) {
   .principal-titulo {
-    font-size: 30px; }
+    font-size: 28px; }
   .principal-parrafo {
     font-size: 13px; } }
 
 @media screen and (max-width: 631px) {
   .principal-titulo {
-    font-size: 25px; }
+    font-size: 24px; }
   .principal-parrafo {
     font-size: 12px; }
   .secundario-titulo {
-    font-size: 14px; }
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.901); }
   .secundario-parrafo {
-    font-size: 8px; } }
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.901); } }
 
 @media screen and (max-width: 568px) {
   .principal-titulo {
-    font-size: 20px; } }
+    font-size: 19px; } }
 
 @media screen and (max-width: 515px) {
   .secundario-titulo {
@@ -566,26 +572,26 @@ footer {
 
 @media screen and (max-width: 505px) {
   .principal-titulo {
-    font-size: 18px; }
+    font-size: 17px; }
   .principal-parrafo {
     font-size: 10px; } }
 
 @media screen and (max-width: 480px) {
   .principal-titulo {
-    font-size: 17px; } }
+    font-size: 16px; } }
 
 @media screen and (max-width: 470px) {
   .principal-titulo {
-    font-size: 16px; }
+    font-size: 15px; }
   .secundario-titulo {
     font-size: 10px; }
   .secundario-parrafo {
     font-size: 8px; } }
 
-@media screen and (max-width: 442px) {
+@media screen and (max-width: 450px) {
   .principal-titulo {
-    font-size: 15px;
-    letter-spacing: 6px; }
+    font-size: 18px;
+    letter-spacing: 5px; }
   .principal-parrafo {
     font-size: 10px; }
   .secundario-titulo {
@@ -595,8 +601,12 @@ footer {
 
 @media screen and (max-width: 381px) {
   .principal-titulo {
-    font-size: 12px; }
+    font-size: 16px; }
   .principal-parrafo {
+    font-size: 8px; }
+  .secundario-titulo {
+    font-size: 9px; }
+  .secundario-parrafo {
     font-size: 8px; } }
 
 @media screen and (max-width: 340px) {
@@ -606,9 +616,9 @@ footer {
   .principal-parrafo {
     font-size: 7px; }
   .secundario-titulo {
-    font-size: 10px; }
+    font-size: 8px; }
   .secundario-parrafo {
-    font-size: 8px; } }
+    font-size: 7px; } }
 
 @media screen and (max-width: 297px) {
   .principal-titulo {
@@ -660,7 +670,7 @@ footer {
 
 @media screen and (max-width: 499px) {
   .alemanes {
-    height: 260vh; }
+    height: 220vh; }
     .alemanes .tarjeta__promo {
       margin-bottom: 40px; }
     .alemanes__titulo {
@@ -676,21 +686,23 @@ footer {
   .alemanes__titulo {
     font-size: 20px; } }
 
+@media screen and (max-width: 420px) {
+  .alemanes__titulo {
+    font-size: 19px; } }
+
 @media screen and (max-width: 404px) {
   .alemanes {
-    height: 240vh; }
+    height: 220vh; }
     .alemanes .tarjeta__promo {
       margin-bottom: 60px; }
     .alemanes__titulo {
       font-size: 19px; } }
 
 @media screen and (max-width: 402px) {
-  .alemanes {
-    justify-content: center; }
-    .alemanes__titulo {
-      font-size: 18px;
-      margin-left: 0;
-      text-align: center; } }
+  .alemanes__titulo {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center; } }
 
 @media screen and (max-width: 378px) {
   .alemanes__titulo {
@@ -751,7 +763,7 @@ footer {
 
 @media screen and (max-width: 495px) {
   .italiano {
-    height: 160vh; } }
+    height: 140vh; } }
 
 @media screen and (max-width: 469px) {
   .italiano .itali-flexible__titulo {
@@ -763,7 +775,7 @@ footer {
   .italiano .itali-flexible__titulo {
     font-size: 16px; }
   .italiano .itali-flexible__sub {
-    font-size: 12px; } }
+    font-size: 15px; } }
 
 @media screen and (max-width: 1069px) {
   .contenedor {
@@ -957,15 +969,28 @@ footer {
 
 @media screen and (max-width: 733px) {
   .autos .ventas1__titulo {
-    font-size: 26px; } }
+    font-size: 50px;
+    text-align: center; } }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
   .autos .ventas1__titulo {
-    font-size: 20px; } }
+    font-size: 40px; } }
 
-@media screen and (max-width: 433px) {
+@media screen and (max-width: 492px) {
   .autos .ventas1__titulo {
-    font-size: 15px;
+    font-size: 35px; } }
+
+@media screen and (max-width: 427px) {
+  .autos .ventas1__titulo {
+    font-size: 30px; } }
+
+@media screen and (max-width: 382px) {
+  .autos .ventas1__titulo {
+    font-size: 25px; } }
+
+@media screen and (max-width: 306px) {
+  .autos .ventas1__titulo {
+    font-size: 20px;
     font-weight: bolder; } }
 
 @media screen and (max-width: 967px) {
@@ -976,7 +1001,23 @@ footer {
     height: 200px;
     margin-bottom: 5px; } }
 
+@media screen and (max-width: 869px) {
+  .ventas {
+    height: 90vh; } }
+
 @media screen and (max-width: 600px) {
+  .ventas {
+    height: 90vh; }
+    .ventas .deportivos {
+      height: 60vh;
+      align-content: space-around; }
+      .ventas .deportivos__venta {
+        width: 250px;
+        height: 330px; }
+      .ventas .deportivos .foto-autos .galeria {
+        height: 200px; } }
+
+@media screen and (max-width: 500px) {
   .ventas {
     height: 150vh; }
     .ventas .deportivos {
@@ -1030,6 +1071,16 @@ footer {
     text-align: center;
     font-size: 10px; } }
 
+@media screen and (max-width: 1246px) {
+  .introduccion__titulo {
+    font-size: 35px;
+    padding-bottom: 4px; }
+  .introduccion__subtitulo {
+    font-size: 25px;
+    margin-top: 15px; }
+  .introduccion__parrafo {
+    font-size: 15px; } }
+
 @media screen and (max-width: 1085px) {
   .introduccion__titulo {
     font-size: 30px;
@@ -1065,7 +1116,7 @@ footer {
     font-weight: bolder; }
   .introduccion__subtitulo {
     font-size: 10px;
-    margin-top: 25px; }
+    margin-top: 15px; }
   .introduccion__parrafo {
     font-size: 8px; } }
 
@@ -1090,13 +1141,27 @@ footer {
     font-size: 10px; }
   .introduccion__subtitulo {
     font-size: 8px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    padding-left: 6px; }
   .introduccion__parrafo {
-    font-size: 6px; } }
+    font-size: 6px;
+    padding-left: 6px; } }
+
+@media screen and (max-width: 340px) {
+  .introduccion__titulo {
+    font-size: 9px; }
+  .introduccion__subtitulo {
+    font-size: 7px;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-left: 5px; }
+  .introduccion__parrafo {
+    font-size: 5px;
+    padding-left: 6px; } }
 
 @media screen and (max-width: 1085px) {
   .novedades {
-    height: 240vh; }
+    height: 220vh; }
     .novedades .videos {
       column-gap: 120px;
       row-gap: 200px;
@@ -1124,7 +1189,7 @@ footer {
 
 @media screen and (max-width: 932px) {
   .novedades {
-    height: 680vh; }
+    height: 580vh; }
     .novedades .videos {
       grid-template-columns: repeat(1, 1fr);
       column-gap: 120px;
@@ -1139,7 +1204,7 @@ footer {
 
 @media screen and (max-width: 721px) {
   .novedades {
-    height: 550vh; }
+    height: 470vh; }
     .novedades .videos {
       row-gap: 120px;
       grid-auto-rows: 350px; }
@@ -1150,11 +1215,11 @@ footer {
       .novedades .videos__youtube {
         height: 85%; } }
 
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 656px) {
   .novedades {
-    height: 420vh; }
+    height: 395vh; }
     .novedades .videos {
-      row-gap: 100px;
+      row-gap: 150px;
       grid-auto-rows: 250px; }
       .novedades .videos__titulo {
         font-size: 15px; }
@@ -1165,7 +1230,7 @@ footer {
 
 @media screen and (max-width: 465px) {
   .novedades {
-    height: 350vh; }
+    height: 310vh; }
     .novedades .videos {
       row-gap: 80px;
       grid-auto-rows: 220px; }
@@ -1178,9 +1243,9 @@ footer {
 
 @media screen and (max-width: 408px) {
   .novedades {
-    height: 320vh; }
+    height: 300vh; }
     .novedades .videos {
-      row-gap: 60px;
+      row-gap: 100px;
       grid-auto-rows: 200px; }
       .novedades .videos__titulo {
         font-size: 15px; }
@@ -1193,7 +1258,7 @@ footer {
   .novedades {
     height: 330vh; }
     .novedades .videos {
-      row-gap: 95px;
+      row-gap: 150px;
       grid-auto-rows: 180px; }
       .novedades .videos__titulo {
         font-size: 15px; }
@@ -1204,9 +1269,9 @@ footer {
 
 @media screen and (max-width: 325px) {
   .novedades {
-    height: 320vh; }
+    height: 290vh; }
     .novedades .videos {
-      row-gap: 120px;
+      row-gap: 130px;
       grid-auto-rows: 160px; }
       .novedades .videos__titulo {
         font-size: 15px; }
@@ -1227,6 +1292,10 @@ footer {
   .mapagrande .casa__central {
     align-items: center;
     padding-right: 0; } }
+
+@media screen and (max-width: 500px) {
+  .contacto {
+    height: 60vh; } }
 
 @media screen and (max-width: 577px) {
   .formulario .formu2 {
