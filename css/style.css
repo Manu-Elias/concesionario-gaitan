@@ -1335,15 +1335,17 @@ footer {
       padding-bottom: 15px; }
     .formulario .formu2 div .textos-completa__parrafo {
       font-size: 18px;
-      font-weight: 100; } }
+      font-weight: 100; }
+  .mapagrande .casa__central__titulo {
+    padding-right: 0px; }
+  .mapagrande .casa__central__ubicacion {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px; } }
 
-.mapagrande .casa__central__titulo {
-  padding-right: 0px; }
-
-.mapagrande .casa__central__ubicacion {
-  width: 400px;
-  height: 400px;
-  padding-bottom: 20px; }
+@media screen and (max-width: 570px) {
+  .formulario .formu2 div .consulta .boton-enviar {
+    width: 70vw; } }
 
 @media screen and (max-width: 468px) {
   .contacto__titulo {

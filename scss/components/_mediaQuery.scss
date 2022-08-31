@@ -1584,7 +1584,7 @@
             }        
         } 
     } 
-}
+
 
 
     .mapagrande{
@@ -1604,11 +1604,31 @@
                     height: 400px;
                     padding-bottom: 20px;
                 }
- 
+
             }
         }
     }
 
+
+
+}
+
+@media screen and (max-width:570px){
+
+    .formulario{
+
+        .formu2{
+
+            div{
+                .consulta{
+                    .boton-enviar{
+                        width: 70vw;
+                    }
+                }
+            }        
+        } 
+    } 
+}
 
 
 
