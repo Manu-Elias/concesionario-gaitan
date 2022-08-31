@@ -513,11 +513,23 @@ footer {
       height: 30px;
       text-decoration: none; }
 
+@media screen and (max-width: 1104px) {
+  .secundario-titulo {
+    font-size: 25px; }
+  .secundario-parrafo {
+    font-size: 20px; } }
+
 @media screen and (max-width: 1066px) {
   .principal-titulo {
     font-size: 45px; }
   .principal-parrafo {
     font-size: 20px; } }
+
+@media screen and (max-width: 917px) {
+  .secundario-titulo {
+    font-size: 22px; }
+  .secundario-parrafo {
+    font-size: 15px; } }
 
 @media screen and (max-width: 879px) {
   .carousel-item img {
@@ -541,6 +553,18 @@ footer {
   .principal-parrafo {
     font-size: 15px;
     color: rgba(255, 255, 255, 0.901); } }
+
+@media screen and (max-width: 738px) {
+  .secundario-titulo {
+    font-size: 19px; }
+  .secundario-parrafo {
+    font-size: 13px; } }
+
+@media screen and (max-width: 699px) {
+  .secundario-titulo {
+    font-size: 17px; }
+  .secundario-parrafo {
+    font-size: 13px; } }
 
 @media screen and (max-width: 694px) {
   .principal-titulo {
@@ -1283,6 +1307,10 @@ footer {
 @media screen and (max-width: 992px) {
   .formulario .formu2 div .consulta .boton-enviar {
     width: 80vw; } }
+
+@media screen and (max-width: 991px) {
+  .formulario .formu2 div .textos-completa {
+    padding-top: 40px; } }
 
 @media screen and (max-width: 841px) {
   .contacto__titulo {
