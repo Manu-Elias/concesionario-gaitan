@@ -295,11 +295,12 @@
     }
 }
 
-@media screen and (max-width:499px){
+@media screen and (max-width:500px){
     .alemanes{
         height: 220vh;
-        .tarjeta__promo{
-            margin-bottom: 40px;
+        .tarjeta{
+            height: 200vh;
+            align-content: space-between;
         }
         &__titulo {
             font-size:22px;
@@ -338,9 +339,7 @@
 @media screen and (max-width:404px){
     .alemanes{
         height: 220vh;
-        .tarjeta__promo{
-            margin-bottom: 60px;
-        }
+
         &__titulo {
             font-size:19px;
         }
@@ -349,7 +348,7 @@
 
 @media screen and (max-width:402px){
     .alemanes{
-        // justify-content: center;
+
         &__titulo {
             font-size:18px;
             margin-left:0;
@@ -388,7 +387,25 @@
     }
 }
 
+
+@media screen and (max-width:335px){
+    .alemanes{
+        height: 260vh;
+        justify-content: center;
+
+        .tarjeta{
+            height: 240vh;
+            align-content: space-around;
+        }
+        
+    }
+}
+
+
+
 // ?--------MEDIA----LANZAMIENTOS--------
+
+
 
 @media screen and (max-width:961px){
     .italiano{
@@ -507,7 +524,10 @@
             }
         }
     }
-}  
+} 
+
+
+
 
 
 
@@ -1424,7 +1444,7 @@
     .novedades{
         height:300vh;
         .videos{
-  
+
             row-gap: 100px;
             grid-auto-rows: 200px;
 
@@ -1445,9 +1465,9 @@
 
 @media screen and (max-width:378px) {
     .novedades{
-        height:330vh;
+        height:320vh;
         .videos{
-  
+
             row-gap: 150px;
             grid-auto-rows: 180px;
 
@@ -1469,7 +1489,7 @@
 
 @media screen and (max-width:325px) {
     .novedades{
-        height:290vh;
+        height:280vh;
         .videos{
 
             row-gap: 130px;
@@ -1517,18 +1537,103 @@
 }
 
 
-@media screen and (max-width:991px){
+
+
+
+@media screen and (max-width:991px) {
     .formulario{
 
         .formu2{
-
+    
             div{
+
                 .textos-completa{
                     padding-top: 40px;
                 }
-            }        
-        } 
-    } 
+                
+                .separador{
+                
+                    &::after{
+                        left: 4px;
+                        top: calc(100% + 20px);
+                    }
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(80% + 15px);
+                                left: 6px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
+}
+
+
+
+@media screen and (max-width:923px) {
+    .formulario{
+
+        .formu2{
+    
+            div{
+                
+                .separador{
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(80% + 15px);
+                                left: 10px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
+}
+
+
+@media screen and (max-width:892px) {
+    .formulario{
+
+        .formu2{
+    
+            div{
+                
+                .separador{
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(80% + 10px);
+                                left: 10px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
 }
 
 
@@ -1556,19 +1661,100 @@
 }
 
 
-@media screen and (max-width:500px){
-    .contacto{
-        height: 60vh;
-    }
+@media screen and (max-width:692px) {
+    .formulario{
 
+        .formu2{
+    
+            div{
+                
+                .separador{
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(80% + 8px);
+                                left: 14px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
 }
+
+
+@media screen and (max-width:587px) {
+    .formulario{
+
+        .formu2{
+    
+            div{
+                
+                .separador{
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(100% + 2px);
+                                left: 14px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
+}
+
+
+@media screen and (max-width:573px) {
+    .formulario{
+
+        .formu2{
+    
+            div{
+                
+                .separador{
+                    
+                    .textos-completa{
+                        &__titulo{
+
+                            &::after{
+                                top: calc(70% + 2px);
+                                left: 2px;
+                            }
+                        }
+                    }
+                
+                    
+    
+                }
+            }    
+        }
+    
+    }
+}
+
+
+
 
 @media screen and (max-width:577px){
     .formulario{
 
         .formu2{
-            display: grid;
-            gap: 80px;
+
             div{
                 .textos-completa{
                     &__titulo{
@@ -1613,25 +1799,14 @@
 
 }
 
-@media screen and (max-width:570px){
 
-    .formulario{
 
-        .formu2{
+@media screen and (max-width:500px){
+    .contacto{
+        height: 60vh;
+    }
 
-            div{
-                .consulta{
-                    .boton-enviar{
-                        width: 70vw;
-                    }
-                }
-            }        
-        } 
-    } 
 }
-
-
-
 
 
 
@@ -1672,11 +1847,12 @@
 @media screen and (max-width:325px){
 
     .mapagrande{
+        height: 90vh;
 
         .casa{
             
             &__central{
-
+                
                 &__ubicacion{
                     width: 250px;
                     height: 250px;
