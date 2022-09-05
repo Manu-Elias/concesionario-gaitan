@@ -1090,16 +1090,90 @@
     }
 }
 
-@media screen and (max-width:378px){
-    .contenedor1{
-        .mercedez__textos{
-            &__titulos{
-                font-size: 15px;
+@media screen and (max-width:471px){
+    .container-fluid{
+        .contenedor1{
+            .mercedez__textos{
+                width: 350px;
+                &:hover{
+                    transform: scale(1);
+
+                    
+                }
+                &__titulos{
+                    font-size: 25px;
+                    font-weight: bolder;
+                }
+                &__parrafo{
+                    font-size: 14px;
+                    
+                }
+    
             }
-            &__parrafo{
-                text-align: center;
-                font-size: 10px;
-                
+        }
+        .contenedor2{
+            .persona__textos{
+                width: 350px;
+                &:hover{
+                    transform: scale(1);
+
+                }
+            }
+        }
+
+        .contenedor3{
+            .laferrari__textos{
+                width: 350px;
+                &:hover{
+                    transform: scale(1);
+
+                }
+                &__parrafo{
+                    font-size: 14px;
+                    
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:375px){
+    .container-fluid{
+        .contenedor1{
+            .mercedez__textos{
+                width: 250px;
+
+                &__titulos{
+                    font-size: 25px;
+                    font-weight: bolder;
+                }
+                &__parrafo{
+                    font-size: 13px;
+                    
+                }
+    
+            }
+        }
+        .contenedor2{
+            .persona__textos{
+                width: 250px;
+                &:hover{
+                    transform: scale(1);
+
+                }
+            }
+        }
+
+        .contenedor3{
+            .laferrari__textos{
+                width: 250px;
+
+                &__parrafo{
+                    font-size: 13px;
+                    
+                }
             }
         }
     }
