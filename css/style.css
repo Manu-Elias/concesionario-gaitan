@@ -1261,9 +1261,13 @@ footer {
     font-size: 5px;
     padding-left: 6px; } }
 
+@media screen and (max-width: 1247px) {
+  .novedades {
+    height: 240vh; } }
+
 @media screen and (max-width: 1085px) {
   .novedades {
-    height: 220vh; }
+    height: 210vh; }
     .novedades .videos {
       column-gap: 120px;
       row-gap: 200px;
@@ -1277,7 +1281,7 @@ footer {
 
 @media screen and (max-width: 1035px) {
   .novedades {
-    height: 240vh; }
+    height: 190vh; }
     .novedades .videos {
       column-gap: 130px;
       row-gap: 210px;
@@ -1306,7 +1310,7 @@ footer {
 
 @media screen and (max-width: 721px) {
   .novedades {
-    height: 470vh; }
+    height: 455vh; }
     .novedades .videos {
       row-gap: 120px;
       grid-auto-rows: 350px; }
@@ -1319,7 +1323,7 @@ footer {
 
 @media screen and (max-width: 656px) {
   .novedades {
-    height: 395vh; }
+    height: 385vh; }
     .novedades .videos {
       row-gap: 150px;
       grid-auto-rows: 250px; }
@@ -1332,7 +1336,7 @@ footer {
 
 @media screen and (max-width: 465px) {
   .novedades {
-    height: 310vh; }
+    height: 300vh; }
     .novedades .videos {
       row-gap: 80px;
       grid-auto-rows: 220px; }
@@ -1345,7 +1349,7 @@ footer {
 
 @media screen and (max-width: 408px) {
   .novedades {
-    height: 300vh; }
+    height: 295vh; }
     .novedades .videos {
       row-gap: 100px;
       grid-auto-rows: 200px; }
@@ -1358,7 +1362,7 @@ footer {
 
 @media screen and (max-width: 378px) {
   .novedades {
-    height: 320vh; }
+    height: 315vh; }
     .novedades .videos {
       row-gap: 150px;
       grid-auto-rows: 180px; }
