@@ -1,4 +1,4 @@
-
+@import"../base/extends";
 
 .autos{
     .ventas1{
@@ -6,11 +6,12 @@
         height: 40vh;
         color: white;
         background-color: rgb(10, 9, 9);
-        display: flex;
         padding-top: 50px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-wrap: wrap;
+        @extend%flex-modelos;
         &__titulo{
             font-size: 40px;
             font-weight: 800;

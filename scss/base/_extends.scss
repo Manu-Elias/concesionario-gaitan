@@ -6,3 +6,21 @@
     justify-content: space-around;
     align-items: center;
 }
+
+// ?---PAG--MODELOS---SECC--VENTAS
+
+%flex-modelos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+// ?----PAG---ACERCA---SECC---PRINCIPAL2
+
+%flex-acerca{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
